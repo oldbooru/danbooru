@@ -260,12 +260,9 @@ doc/index.html -text
 doc/rdoc-style.css -text
 lib/arch.rb -text
 lib/login_system.rb -text
-lib/mimetypes.rb -text
 lib/resizer/Makefile -text
 lib/resizer/resizer -text
 lib/resizer/resizer.c -text
-lib/tasks/nuke.rake -text
-lib/versioned.rb -text
 lib/withindex.rb -text
 locale/en_US.yaml -text
 log/mongrel.log -text
@@ -391,6 +388,8 @@ test/mocks/test/not_a_img.jpg -text
 test/mocks/test/test.jpg -text
 test/test_helper.rb -text
 vendor/image_size.rb -text
-vendor/image_size.rd -text
+vendor/plugins/uses_image_servers/README -text
+vendor/plugins/uses_image_servers/init.rb -text
+vendor/plugins/uses_image_servers/lib/uses_image_servers.rb -text
 vendor/plugins/votable/init.rb -text
 vendor/plugins/votable/lib/votable.rb -text
