@@ -30,7 +30,6 @@ app/models/tag.rb -text
 app/models/tag_alias.rb -text
 app/models/tag_implication.rb -text
 app/models/user.rb -text
-app/models/vote.rb -text
 app/models/wiki_page.rb -text
 app/models/wiki_page_version.rb -text
 app/views/account/change_password.rhtml -text
