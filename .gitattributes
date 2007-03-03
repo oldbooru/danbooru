@@ -265,8 +265,6 @@ lib/resizer/resizer -text
 lib/resizer/resizer.c -text
 lib/withindex.rb -text
 locale/en_US.yaml -text
-log/mongrel.log -text
-log/production.log -text
 public/404.html -text
 public/500.html -text
 public/data/preview/default.png -text
