@@ -114,6 +114,7 @@ config/local_config.rb -text
 config/local_config.yml.example -text
 config/mongrel.yml -text
 config/routes.rb -text
+db/migrate/001_add_post_links.rb -text
 db/postgres.sql -text
 lib/arch.rb -text
 lib/login_system.rb -text
