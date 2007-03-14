@@ -16,6 +16,7 @@ app/controllers/wiki_controller.rb -text
 app/helpers/account_helper.rb -text
 app/helpers/admin_helper.rb -text
 app/helpers/application_helper.rb -text
+app/helpers/artist_helper.rb -text
 app/helpers/comment_helper.rb -text
 app/helpers/note_helper.rb -text
 app/helpers/post_helper.rb -text
