@@ -123,6 +123,7 @@ config/routes.rb -text
 db/migrate/001_add_post_links.rb -text
 db/migrate/002_create_artists.rb -text
 db/migrate/003_extend_post_tag_histories.rb -text
+db/migrate/004_post_tag_history_constraints.rb -text
 db/postgres.sql -text
 lib/arch.rb -text
 lib/login_system.rb -text
