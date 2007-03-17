@@ -156,7 +156,6 @@ public/javascripts/notes.js -text
 public/javascripts/prototype.js -text
 public/javascripts/scriptaculous.js -text
 public/javascripts/slider.js -text
-public/javascripts/styleswitcher.js -text
 public/stylesheets/default.css -text
 script/benchmarker -text
 script/breakpointer -text
