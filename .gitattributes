@@ -8,6 +8,7 @@ app/controllers/api_controller.rb -text
 app/controllers/application.rb -text
 app/controllers/artist_controller.rb -text
 app/controllers/comment_controller.rb -text
+app/controllers/forum_post_controller.rb -text
 app/controllers/note_controller.rb -text
 app/controllers/post_controller.rb -text
 app/controllers/static_controller.rb -text
@@ -25,6 +26,7 @@ app/helpers/tag_helper.rb -text
 app/helpers/wiki_helper.rb -text
 app/models/artist.rb -text
 app/models/comment.rb -text
+app/models/forum_post.rb -text
 app/models/note.rb -text
 app/models/note_version.rb -text
 app/models/post.rb -text
@@ -124,6 +126,7 @@ db/migrate/001_add_post_links.rb -text
 db/migrate/002_create_artists.rb -text
 db/migrate/003_extend_post_tag_histories.rb -text
 db/migrate/004_post_tag_history_constraints.rb -text
+db/migrate/005_create_forum_post.rb -text
 db/postgres.sql -text
 lib/arch.rb -text
 lib/login_system.rb -text
