@@ -19,6 +19,7 @@ app/helpers/admin_helper.rb -text
 app/helpers/application_helper.rb -text
 app/helpers/artist_helper.rb -text
 app/helpers/comment_helper.rb -text
+app/helpers/forum_post_helper.rb -text
 app/helpers/note_helper.rb -text
 app/helpers/post_helper.rb -text
 app/helpers/static_helper.rb -text
@@ -65,6 +66,9 @@ app/views/comment/edit.rhtml -text
 app/views/comment/list.rhtml -text
 app/views/comment/moderate.rhtml -text
 app/views/comment/view.rhtml -text
+app/views/forum_post/create.rhtml -text
+app/views/forum_post/list.rhtml -text
+app/views/forum_post/view.rhtml -text
 app/views/layouts/bare.rhtml -text
 app/views/layouts/default.rhtml -text
 app/views/note/_note.rhtml -text
