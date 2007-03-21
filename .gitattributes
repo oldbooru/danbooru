@@ -78,8 +78,8 @@ app/views/note/list.rhtml -text
 app/views/post/_posts.rhtml -text
 app/views/post/_search.rhtml -text
 app/views/post/_tags.rhtml -text
-app/views/post/add.rhtml -text
 app/views/post/atom.rxml -text
+app/views/post/create.rhtml -text
 app/views/post/list.rhtml -text
 app/views/post/moderate.rhtml -text
 app/views/post/popular.rhtml -text
