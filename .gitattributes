@@ -116,6 +116,7 @@ app/views/wiki/list.rhtml -text
 app/views/wiki/rename.rhtml -text
 app/views/wiki/view.rhtml -text
 config/boot.rb -text
+config/core_extensions.rb -text
 config/database.yml.example -text
 config/environment.rb -text
 config/environments/development.rb -text
