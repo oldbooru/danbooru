@@ -69,9 +69,6 @@ app/views/comment/show.rhtml -text
 app/views/forum/add.rhtml -text
 app/views/forum/list.rhtml -text
 app/views/forum/view.rhtml -text
-app/views/forum_post/add.rhtml -text
-app/views/forum_post/list.rhtml -text
-app/views/forum_post/view.rhtml -text
 app/views/layouts/bare.rhtml -text
 app/views/layouts/default.rhtml -text
 app/views/note/_note.rhtml -text
