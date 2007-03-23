@@ -97,12 +97,12 @@ app/views/tag/_footer.rhtml -text
 app/views/tag/aliases.rhtml -text
 app/views/tag/edit_preview.rhtml -text
 app/views/tag/implications.rhtml -text
-app/views/tag/list.rhtml -text
 app/views/tag/list_all.rhtml -text
 app/views/tag/list_all_by_count.rhtml -text
 app/views/tag/list_all_by_creation.rhtml -text
 app/views/tag/list_ambiguous.rhtml -text
 app/views/tag/list_artists.rhtml -text
+app/views/tag/list_cloud.rhtml -text
 app/views/tag/mass_edit.rhtml -text
 app/views/tag/search.rhtml -text
 app/views/tag/set_type.rhtml -text
@@ -112,9 +112,8 @@ app/views/wiki/_sidebar.rhtml -text
 app/views/wiki/diff.rhtml -text
 app/views/wiki/edit.rhtml -text
 app/views/wiki/history.rhtml -text
-app/views/wiki/list.rhtml -text
-app/views/wiki/rename.rhtml -text
-app/views/wiki/view.rhtml -text
+app/views/wiki/index.rhtml -text
+app/views/wiki/show.rhtml -text
 config/boot.rb -text
 config/core_extensions.rb -text
 config/database.yml.example -text
