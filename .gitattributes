@@ -8,7 +8,7 @@ app/controllers/api_controller.rb -text
 app/controllers/application.rb -text
 app/controllers/artist_controller.rb -text
 app/controllers/comment_controller.rb -text
-app/controllers/forum_post_controller.rb -text
+app/controllers/forum_controller.rb -text
 app/controllers/note_controller.rb -text
 app/controllers/post_controller.rb -text
 app/controllers/static_controller.rb -text
