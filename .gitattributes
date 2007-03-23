@@ -63,9 +63,9 @@ app/views/artist/list.rhtml -text
 app/views/comment/_comments.rhtml -text
 app/views/comment/_comments_for_post.rhtml -text
 app/views/comment/edit.rhtml -text
-app/views/comment/list.rhtml -text
+app/views/comment/index.rhtml -text
 app/views/comment/moderate.rhtml -text
-app/views/comment/view.rhtml -text
+app/views/comment/show.rhtml -text
 app/views/forum_post/add.rhtml -text
 app/views/forum_post/list.rhtml -text
 app/views/forum_post/view.rhtml -text
