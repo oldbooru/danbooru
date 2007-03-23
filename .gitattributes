@@ -99,7 +99,7 @@ app/views/tag/edit_preview.rhtml -text
 app/views/tag/implications.rhtml -text
 app/views/tag/list_all.rhtml -text
 app/views/tag/list_all_by_count.rhtml -text
-app/views/tag/list_all_by_creation.rhtml -text
+app/views/tag/list_all_by_date.rhtml -text
 app/views/tag/list_ambiguous.rhtml -text
 app/views/tag/list_artists.rhtml -text
 app/views/tag/list_cloud.rhtml -text
