@@ -66,7 +66,7 @@ app/views/comment/edit.rhtml -text
 app/views/comment/list.rhtml -text
 app/views/comment/moderate.rhtml -text
 app/views/comment/view.rhtml -text
-app/views/forum_post/create.rhtml -text
+app/views/forum_post/add.rhtml -text
 app/views/forum_post/list.rhtml -text
 app/views/forum_post/view.rhtml -text
 app/views/layouts/bare.rhtml -text
