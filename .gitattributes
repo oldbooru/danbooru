@@ -104,7 +104,6 @@ app/views/user/edit.rhtml -text
 app/views/user/favorites.rhtml -text
 app/views/user/favorites_atom.rxml -text
 app/views/user/home.rhtml -text
-app/views/user/index.rhtml -text
 app/views/user/login.rhtml -text
 app/views/user/logout.rhtml -text
 app/views/user/reset_password.rhtml -text
