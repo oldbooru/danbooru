@@ -136,6 +136,7 @@ db/migrate/006_create_forum_posts.rb -text
 db/migrate/007_add_spam_field_to_comments.rb -text
 db/migrate/008_upgrade_forums.rb -text
 db/migrate/009_add_last_seen_forum_post_date.rb -text
+db/migrate/010_add_user_fields.rb -text
 db/postgres.sql -text
 doc/README_FOR_APP -text
 doc/app/classes/AccountController.html -text
