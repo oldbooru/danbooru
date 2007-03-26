@@ -2,7 +2,6 @@
 /INSTALL -text
 /LICENSE -text
 /Rakefile -text
-app/controllers/account_controller.rb -text
 app/controllers/admin_controller.rb -text
 app/controllers/api_controller.rb -text
 app/controllers/application.rb -text
@@ -13,6 +12,7 @@ app/controllers/note_controller.rb -text
 app/controllers/post_controller.rb -text
 app/controllers/static_controller.rb -text
 app/controllers/tag_controller.rb -text
+app/controllers/user_controller.rb -text
 app/controllers/wiki_controller.rb -text
 app/helpers/account_helper.rb -text
 app/helpers/admin_helper.rb -text
@@ -38,15 +38,6 @@ app/models/tag_implication.rb -text
 app/models/user.rb -text
 app/models/wiki_page.rb -text
 app/models/wiki_page_version.rb -text
-app/views/account/change_password.rhtml -text
-app/views/account/favorites.rhtml -text
-app/views/account/favorites_atom.rxml -text
-app/views/account/index.rhtml -text
-app/views/account/list.rhtml -text
-app/views/account/login.rhtml -text
-app/views/account/logout.rhtml -text
-app/views/account/options.rhtml -text
-app/views/account/signup.rhtml -text
 app/views/admin/edit_account.rhtml -text
 app/views/admin/index.rhtml -text
 app/views/admin/reset_pass.rhtml -text
@@ -108,6 +99,15 @@ app/views/tag/mass_edit.rhtml -text
 app/views/tag/search.rhtml -text
 app/views/tag/set_type.rhtml -text
 app/views/tag/suggest.rhtml -text
+app/views/user/change_password.rhtml -text
+app/views/user/favorites.rhtml -text
+app/views/user/favorites_atom.rxml -text
+app/views/user/index.rhtml -text
+app/views/user/list.rhtml -text
+app/views/user/login.rhtml -text
+app/views/user/logout.rhtml -text
+app/views/user/options.rhtml -text
+app/views/user/signup.rhtml -text
 app/views/wiki/_recently_revised.rhtml -text
 app/views/wiki/_sidebar.rhtml -text
 app/views/wiki/diff.rhtml -text
