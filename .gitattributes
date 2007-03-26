@@ -100,13 +100,13 @@ app/views/tag/search.rhtml -text
 app/views/tag/set_type.rhtml -text
 app/views/tag/suggest.rhtml -text
 app/views/user/change_password.rhtml -text
+app/views/user/edit.rhtml -text
 app/views/user/favorites.rhtml -text
 app/views/user/favorites_atom.rxml -text
-app/views/user/index.rhtml -text
+app/views/user/home.rhtml -text
 app/views/user/list.rhtml -text
 app/views/user/login.rhtml -text
 app/views/user/logout.rhtml -text
-app/views/user/options.rhtml -text
 app/views/user/signup.rhtml -text
 app/views/wiki/_recently_revised.rhtml -text
 app/views/wiki/_sidebar.rhtml -text
