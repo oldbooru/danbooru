@@ -36,6 +36,7 @@ app/models/tag.rb -text
 app/models/tag_alias.rb -text
 app/models/tag_implication.rb -text
 app/models/user.rb -text
+app/models/user_mailer.rb -text
 app/models/wiki_page.rb -text
 app/models/wiki_page_version.rb -text
 app/views/admin/edit_account.rhtml -text
@@ -99,15 +100,16 @@ app/views/tag/mass_edit.rhtml -text
 app/views/tag/search.rhtml -text
 app/views/tag/set_type.rhtml -text
 app/views/tag/suggest.rhtml -text
-app/views/user/change_password.rhtml -text
 app/views/user/edit.rhtml -text
 app/views/user/favorites.rhtml -text
 app/views/user/favorites_atom.rxml -text
 app/views/user/home.rhtml -text
-app/views/user/list.rhtml -text
+app/views/user/index.rhtml -text
 app/views/user/login.rhtml -text
 app/views/user/logout.rhtml -text
+app/views/user/reset_password.rhtml -text
 app/views/user/signup.rhtml -text
+app/views/user_mailer/new_password.rhtml -text
 app/views/wiki/_recently_revised.rhtml -text
 app/views/wiki/_sidebar.rhtml -text
 app/views/wiki/diff.rhtml -text
@@ -278,6 +280,7 @@ script/spin -text
 test/mocks/test/not_a_img.jpg -text
 test/mocks/test/test.jpg -text
 test/test_helper.rb -text
+test/unit/user_mailer_test.rb -text
 vendor/image_size.rb -text
 vendor/plugins/uses_image_servers/README -text
 vendor/plugins/uses_image_servers/init.rb -text
