@@ -21,6 +21,7 @@ app/helpers/application_helper.rb -text
 app/helpers/artist_helper.rb -text
 app/helpers/comment_helper.rb -text
 app/helpers/forum_post_helper.rb -text
+app/helpers/invite_helper.rb -text
 app/helpers/note_helper.rb -text
 app/helpers/post_helper.rb -text
 app/helpers/static_helper.rb -text
@@ -66,6 +67,7 @@ app/views/forum/add.rhtml -text
 app/views/forum/edit.rhtml -text
 app/views/forum/index.rhtml -text
 app/views/forum/show.rhtml -text
+app/views/invite/activate.rhtml -text
 app/views/layouts/bare.rhtml -text
 app/views/layouts/default.rhtml -text
 app/views/note/_note.rhtml -text
@@ -106,6 +108,7 @@ app/views/user/edit.rhtml -text
 app/views/user/favorites.rhtml -text
 app/views/user/favorites_atom.rxml -text
 app/views/user/home.rhtml -text
+app/views/user/invites.rhtml -text
 app/views/user/login.rhtml -text
 app/views/user/logout.rhtml -text
 app/views/user/reset_password.rhtml -text
@@ -141,6 +144,7 @@ db/migrate/008_upgrade_forums.rb -text
 db/migrate/009_add_last_seen_forum_post_date.rb -text
 db/migrate/010_add_user_fields.rb -text
 db/migrate/011_add_invites.rb -text
+db/migrate/012_rename_invite_email_field.rb -text
 db/postgres.sql -text
 doc/README_FOR_APP -text
 doc/app/classes/AccountController.html -text
