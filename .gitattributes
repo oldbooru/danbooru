@@ -94,6 +94,7 @@ app/views/static/more.rhtml -text
 app/views/static/redirect.rhtml -text
 app/views/tag/_footer.rhtml -text
 app/views/tag/aliases.rhtml -text
+app/views/tag/edit.rhtml -text
 app/views/tag/edit_preview.rhtml -text
 app/views/tag/implications.rhtml -text
 app/views/tag/list_all_by_name.rhtml -text
@@ -102,7 +103,6 @@ app/views/tag/list_artists.rhtml -text
 app/views/tag/list_cloud.rhtml -text
 app/views/tag/mass_edit.rhtml -text
 app/views/tag/search.rhtml -text
-app/views/tag/set_type.rhtml -text
 app/views/tag/suggest.rhtml -text
 app/views/user/edit.rhtml -text
 app/views/user/favorites.rhtml -text
