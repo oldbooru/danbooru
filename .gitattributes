@@ -101,7 +101,6 @@ app/views/tag/implications.rhtml -text
 app/views/tag/index.rhtml -text
 app/views/tag/mass_edit.rhtml -text
 app/views/tag/search.rhtml -text
-app/views/tag/suggest.rhtml -text
 app/views/user/edit.rhtml -text
 app/views/user/favorites.rhtml -text
 app/views/user/favorites_atom.rxml -text
