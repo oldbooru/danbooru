@@ -92,6 +92,7 @@ app/views/static/500.rhtml -text
 app/views/static/index.rhtml -text
 app/views/static/more.rhtml -text
 app/views/static/redirect.rhtml -text
+app/views/tag/_alpha_paginator.rhtml -text
 app/views/tag/_footer.rhtml -text
 app/views/tag/aliases.rhtml -text
 app/views/tag/cloud.rhtml -text
