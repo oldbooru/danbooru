@@ -143,6 +143,7 @@ db/migrate/009_add_last_seen_forum_post_date.rb -text
 db/migrate/010_add_user_fields.rb -text
 db/migrate/011_add_invites.rb -text
 db/migrate/012_rename_invite_email_field.rb -text
+db/migrate/013_drop_is_ambiguous_field_from_tags.rb -text
 db/postgres.sql -text
 doc/README_FOR_APP -text
 doc/app/classes/AccountController.html -text
