@@ -44,8 +44,6 @@ app/models/wiki_page.rb -text
 app/models/wiki_page_version.rb -text
 app/views/admin/edit_account.rhtml -text
 app/views/admin/index.rhtml -text
-app/views/admin/reset_pass.rhtml -text
-app/views/admin/settings.rhtml -text
 app/views/api/find_comments.rxml -text
 app/views/api/find_posts.rxml -text
 app/views/api/find_servers.rxml -text
