@@ -126,8 +126,7 @@ config/environment.rb -text
 config/environments/development.rb -text
 config/environments/production.rb -text
 config/environments/test.rb -text
-config/local_config.rb -text
-config/local_config.yml.example -text
+config/local_config.rb.example -text
 config/mongrel.yml -text
 config/routes.rb -text
 db/migrate/001_add_post_links.rb -text
