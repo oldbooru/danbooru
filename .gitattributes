@@ -105,8 +105,9 @@ app/views/tag/index.rhtml -text
 app/views/tag/mass_edit.rhtml -text
 app/views/tag/search.rhtml -text
 app/views/tag_alias/_footer.rhtml -text
-app/views/tag_alias/add.rhtml -text
 app/views/tag_alias/index.rhtml -text
+app/views/tag_implication/_footer.rhtml -text
+app/views/tag_implication/index.rhtml -text
 app/views/user/edit.rhtml -text
 app/views/user/favorites.rhtml -text
 app/views/user/favorites_atom.rxml -text
@@ -151,6 +152,7 @@ db/migrate/011_add_invites.rb -text
 db/migrate/012_rename_invite_email_field.rb -text
 db/migrate/013_drop_is_ambiguous_field_from_tags.rb -text
 db/migrate/014_add_pending_to_aliases_and_implications.rb -text
+db/migrate/015_rename_implication_fields.rb -text
 db/postgres.sql -text
 doc/README_FOR_APP -text
 doc/app/classes/AccountController.html -text
