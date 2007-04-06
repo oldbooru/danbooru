@@ -12,7 +12,9 @@ app/controllers/invite_controller.rb -text
 app/controllers/note_controller.rb -text
 app/controllers/post_controller.rb -text
 app/controllers/static_controller.rb -text
+app/controllers/tag_alias_controller.rb -text
 app/controllers/tag_controller.rb -text
+app/controllers/tag_implication_controller.rb -text
 app/controllers/user_controller.rb -text
 app/controllers/wiki_controller.rb -text
 app/helpers/account_helper.rb -text
@@ -25,7 +27,9 @@ app/helpers/invite_helper.rb -text
 app/helpers/note_helper.rb -text
 app/helpers/post_helper.rb -text
 app/helpers/static_helper.rb -text
+app/helpers/tag_alias_helper.rb -text
 app/helpers/tag_helper.rb -text
+app/helpers/tag_implication_helper.rb -text
 app/helpers/wiki_helper.rb -text
 app/models/artist.rb -text
 app/models/comment.rb -text
@@ -143,6 +147,7 @@ db/migrate/010_add_user_fields.rb -text
 db/migrate/011_add_invites.rb -text
 db/migrate/012_rename_invite_email_field.rb -text
 db/migrate/013_drop_is_ambiguous_field_from_tags.rb -text
+db/migrate/014_add_pending_to_aliases_and_implications.rb -text
 db/postgres.sql -text
 doc/README_FOR_APP -text
 doc/app/classes/AccountController.html -text
