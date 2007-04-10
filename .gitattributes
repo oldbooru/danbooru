@@ -273,6 +273,7 @@ public/javascripts/prototype.js -text
 public/javascripts/scriptaculous.js -text
 public/javascripts/slider.js -text
 public/stylesheets/default.css -text
+script/about -text
 script/benchmarker -text
 script/breakpointer -text
 script/console -text
@@ -283,6 +284,8 @@ script/fix_tags -text
 script/generate -text
 script/performance/benchmarker -text
 script/performance/profiler -text
+script/plugin -text
+script/process/inspector -text
 script/process/reaper -text
 script/process/spawner -text
 script/process/spinner -text
