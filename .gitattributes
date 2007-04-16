@@ -295,7 +295,6 @@ script/process/reaper -text
 script/process/spawner -text
 script/process/spinner -text
 script/profiler -text
-script/reset_pass -text
 script/runner -text
 script/server -text
 script/spin -text
