@@ -55,7 +55,6 @@ app/views/api/find_servers.rxml -text
 app/views/api/find_tag_history.rxml -text
 app/views/api/find_tags.rxml -text
 app/views/api/find_wiki.rxml -text
-app/views/artist/_listing.rhtml -text
 app/views/artist/add.rhtml -text
 app/views/artist/edit.rhtml -text
 app/views/artist/index.rhtml -text
