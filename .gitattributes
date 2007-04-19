@@ -158,6 +158,8 @@ db/migrate/016_add_forum_posts_user_views.rb -text
 db/migrate/017_drop_last_seen_forum_post_date_from_users.rb -text
 db/migrate/018_add_constraints_to_forum_posts_user_views.rb -text
 db/migrate/019_add_id_to_forum_posts_user_views.rb -text
+db/migrate/020_change_artists_a.rb -text
+db/migrate/021_change_artists_b.rb -text
 db/postgres.sql -text
 doc/README_FOR_APP -text
 doc/app/classes/AccountController.html -text
