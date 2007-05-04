@@ -161,6 +161,7 @@ db/migrate/020_change_artists_a.rb -text
 db/migrate/021_change_artists_b.rb -text
 db/migrate/022_add_notes_to_artists.rb -text
 db/migrate/023_add_updated_at_to_artists.rb -text
+db/migrate/024_drop_extra_indexes_on_artists.rb -text
 db/postgres.sql -text
 doc/README_FOR_APP -text
 doc/app/classes/AccountController.html -text
