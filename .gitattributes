@@ -307,8 +307,13 @@ test/mocks/test/test.jpg -text
 test/test_helper.rb -text
 test/unit/user_mailer_test.rb -text
 vendor/image_size.rb -text
-vendor/plugins/uses_image_servers/README -text
-vendor/plugins/uses_image_servers/init.rb -text
-vendor/plugins/uses_image_servers/lib/uses_image_servers.rb -text
+vendor/plugins/image_store/README -text
+vendor/plugins/image_store/Rakefile -text
+vendor/plugins/image_store/init.rb -text
+vendor/plugins/image_store/install.rb -text
+vendor/plugins/image_store/lib/image_store.rb -text
+vendor/plugins/image_store/tasks/image_store_tasks.rake -text
+vendor/plugins/image_store/test/image_store_test.rb -text
+vendor/plugins/image_store/uninstall.rb -text
 vendor/plugins/votable/init.rb -text
 vendor/plugins/votable/lib/votable.rb -text
