@@ -165,6 +165,7 @@ db/migrate/023_add_updated_at_to_artists.rb -text
 db/migrate/024_drop_extra_indexes_on_artists.rb -text
 db/migrate/025_add_updater_id_to_artists.rb -text
 db/migrate/026_add_ambiguous_field_to_tags.rb -text
+db/migrate/027_add_response_count_to_forum.rb -text
 db/postgres.sql -text
 doc/README_FOR_APP -text
 doc/app/classes/AccountController.html -text
