@@ -58,6 +58,7 @@ app/views/api/find_wiki.rxml -text
 app/views/artist/add.rhtml -text
 app/views/artist/edit.rhtml -text
 app/views/artist/index.rhtml -text
+app/views/artist/show.rhtml -text
 app/views/comment/_comments.rhtml -text
 app/views/comment/_comments_for_post.rhtml -text
 app/views/comment/edit.rhtml -text
@@ -164,7 +165,6 @@ db/migrate/023_add_updated_at_to_artists.rb -text
 db/migrate/024_drop_extra_indexes_on_artists.rb -text
 db/migrate/025_add_updater_id_to_artists.rb -text
 db/migrate/026_add_ambiguous_field_to_tags.rb -text
-db/migrate/027_upgrade_forum_posts_2.rb -text
 db/postgres.sql -text
 doc/README_FOR_APP -text
 doc/app/classes/AccountController.html -text
