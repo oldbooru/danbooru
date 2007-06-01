@@ -283,6 +283,7 @@ public/javascripts/notes.js -text
 public/javascripts/prototype.js -text
 public/javascripts/scriptaculous.js -text
 public/javascripts/slider.js -text
+public/robots.txt -text
 public/stylesheets/default.css -text
 script/about -text
 script/benchmarker -text
