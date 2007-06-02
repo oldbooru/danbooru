@@ -47,6 +47,7 @@ app/models/user.rb -text
 app/models/user_mailer.rb -text
 app/models/wiki_page.rb -text
 app/models/wiki_page_version.rb -text
+app/views/admin/cache_stats.rhtml -text
 app/views/admin/edit_account.rhtml -text
 app/views/admin/index.rhtml -text
 app/views/api/find_comments.rxml -text
