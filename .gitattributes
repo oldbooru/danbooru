@@ -52,7 +52,6 @@ app/views/admin/edit_account.rhtml -text
 app/views/admin/index.rhtml -text
 app/views/api/find_comments.rxml -text
 app/views/api/find_posts.rxml -text
-app/views/api/find_servers.rxml -text
 app/views/api/find_tag_history.rxml -text
 app/views/api/find_tags.rxml -text
 app/views/api/find_wiki.rxml -text
