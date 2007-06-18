@@ -104,6 +104,9 @@ app/views/tag/edit_preview.rhtml -text
 app/views/tag/implications.rhtml -text
 app/views/tag/index.rhtml -text
 app/views/tag/mass_edit.rhtml -text
+app/views/tag/popular_by_day.rhtml -text
+app/views/tag/popular_by_month.rhtml -text
+app/views/tag/popular_by_week.rhtml -text
 app/views/tag/search.rhtml -text
 app/views/tag_alias/_footer.rhtml -text
 app/views/tag_alias/index.rhtml -text
