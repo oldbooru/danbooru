@@ -263,6 +263,7 @@ lib/arch.rb -text
 lib/cache.rb -text
 lib/login_system.rb -text
 lib/memcache_util_store.rb -text
+lib/persistent_hash.rb -text
 lib/resizer/Makefile -text
 lib/resizer/resizer -text
 lib/resizer/resizer.c -text
