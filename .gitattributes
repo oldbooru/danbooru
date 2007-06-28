@@ -283,13 +283,17 @@ public/images/500.jpg -text
 public/images/activity.gif -text
 public/images/down.jpg -text
 public/images/nl.png -text
+public/javascripts/application.js -text
 public/javascripts/builder.js -text
 public/javascripts/common.js -text
 public/javascripts/controls.js -text
 public/javascripts/dragdrop.js -text
 public/javascripts/effects.js -text
+public/javascripts/image_resize.js -text
 public/javascripts/notes.js -text
+public/javascripts/post_mode_menu.js -text
 public/javascripts/prototype.js -text
+public/javascripts/related_tags.js -text
 public/javascripts/scriptaculous.js -text
 public/javascripts/slider.js -text
 public/javascripts/tag_script_admin.js -text
