@@ -171,6 +171,7 @@ db/migrate/026_add_ambiguous_field_to_tags.rb -text
 db/migrate/027_add_response_count_to_forum.rb -text
 db/migrate/028_add_image_resize_user_setting.rb -text
 db/migrate/029_add_safe_post_count_to_tags.rb -text
+db/migrate/030_add_invited_by_to_users.rb -text
 db/postgres.sql -text
 doc/README_FOR_APP -text
 doc/app/classes/AccountController.html -text
