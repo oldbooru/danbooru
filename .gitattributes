@@ -9,6 +9,7 @@ app/controllers/artist_controller.rb -text
 app/controllers/comment_controller.rb -text
 app/controllers/forum_controller.rb -text
 app/controllers/invite_controller.rb -text
+app/controllers/news_controller.rb -text
 app/controllers/note_controller.rb -text
 app/controllers/post_controller.rb -text
 app/controllers/static_controller.rb -text
@@ -36,6 +37,7 @@ app/models/comment.rb -text
 app/models/forum_post.rb -text
 app/models/forum_post_view.rb -text
 app/models/invite.rb -text
+app/models/news_update.rb -text
 app/models/note.rb -text
 app/models/note_version.rb -text
 app/models/post.rb -text
@@ -74,6 +76,10 @@ app/views/forum/show.rhtml -text
 app/views/invite/activate.rhtml -text
 app/views/layouts/bare.rhtml -text
 app/views/layouts/default.rhtml -text
+app/views/news/edit.rhtml -text
+app/views/news/index.rhtml -text
+app/views/news/new.rhtml -text
+app/views/news/show.rhtml -text
 app/views/note/_note.rhtml -text
 app/views/note/history.rhtml -text
 app/views/note/index.rhtml -text
@@ -172,6 +178,7 @@ db/migrate/027_add_response_count_to_forum.rb -text
 db/migrate/028_add_image_resize_user_setting.rb -text
 db/migrate/029_add_safe_post_count_to_tags.rb -text
 db/migrate/030_add_invited_by_to_users.rb -text
+db/migrate/031_create_news_updates.rb -text
 db/postgres.sql -text
 doc/README_FOR_APP -text
 doc/app/classes/AccountController.html -text
