@@ -9,7 +9,6 @@ app/controllers/artist_controller.rb -text
 app/controllers/comment_controller.rb -text
 app/controllers/forum_controller.rb -text
 app/controllers/invite_controller.rb -text
-app/controllers/news_controller.rb -text
 app/controllers/note_controller.rb -text
 app/controllers/post_controller.rb -text
 app/controllers/static_controller.rb -text
@@ -76,10 +75,6 @@ app/views/forum/show.rhtml -text
 app/views/invite/activate.rhtml -text
 app/views/layouts/bare.rhtml -text
 app/views/layouts/default.rhtml -text
-app/views/news/edit.rhtml -text
-app/views/news/index.rhtml -text
-app/views/news/new.rhtml -text
-app/views/news/show.rhtml -text
 app/views/note/_note.rhtml -text
 app/views/note/history.rhtml -text
 app/views/note/index.rhtml -text
