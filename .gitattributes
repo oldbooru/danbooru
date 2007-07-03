@@ -36,7 +36,6 @@ app/models/comment.rb -text
 app/models/forum_post.rb -text
 app/models/forum_post_view.rb -text
 app/models/invite.rb -text
-app/models/news_update.rb -text
 app/models/note.rb -text
 app/models/note_version.rb -text
 app/models/post.rb -text
