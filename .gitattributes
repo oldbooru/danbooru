@@ -8,6 +8,7 @@ app/controllers/application.rb -text
 app/controllers/artist_controller.rb -text
 app/controllers/comment_controller.rb -text
 app/controllers/forum_controller.rb -text
+app/controllers/help_controller.rb -text
 app/controllers/invite_controller.rb -text
 app/controllers/note_controller.rb -text
 app/controllers/post_controller.rb -text
@@ -71,6 +72,10 @@ app/views/forum/add.rhtml -text
 app/views/forum/edit.rhtml -text
 app/views/forum/index.rhtml -text
 app/views/forum/show.rhtml -text
+app/views/help/api.rhtml -text
+app/views/help/artists.rhtml -text
+app/views/help/cheatsheet.rhtml -text
+app/views/help/index.rhtml -text
 app/views/invite/activate.rhtml -text
 app/views/layouts/bare.rhtml -text
 app/views/layouts/default.rhtml -text
