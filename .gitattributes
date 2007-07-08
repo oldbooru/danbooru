@@ -76,6 +76,7 @@ app/views/help/api.rhtml -text
 app/views/help/artists.rhtml -text
 app/views/help/cheatsheet.rhtml -text
 app/views/help/index.rhtml -text
+app/views/help/posts.rhtml -text
 app/views/invite/activate.rhtml -text
 app/views/layouts/bare.rhtml -text
 app/views/layouts/default.rhtml -text
@@ -111,7 +112,6 @@ app/views/tag/mass_edit.rhtml -text
 app/views/tag/popular_by_day.rhtml -text
 app/views/tag/popular_by_month.rhtml -text
 app/views/tag/popular_by_week.rhtml -text
-app/views/tag/search.rhtml -text
 app/views/tag_alias/_footer.rhtml -text
 app/views/tag_alias/index.rhtml -text
 app/views/tag_implication/_footer.rhtml -text
