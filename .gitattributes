@@ -82,11 +82,14 @@ app/views/help/extension.rhtml -text
 app/views/help/favorites.rhtml -text
 app/views/help/index.rhtml -text
 app/views/help/irc.rhtml -text
+app/views/help/mass_tag_edit.rhtml -text
 app/views/help/notes.rhtml -text
 app/views/help/posts.rhtml -text
 app/views/help/ratings.rhtml -text
 app/views/help/source_code.rhtml -text
 app/views/help/start.rhtml -text
+app/views/help/tag_aliases.rhtml -text
+app/views/help/tag_implications.rhtml -text
 app/views/help/tag_scripts.rhtml -text
 app/views/help/tags.rhtml -text
 app/views/help/users.rhtml -text
