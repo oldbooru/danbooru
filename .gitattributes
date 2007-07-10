@@ -18,7 +18,6 @@ app/controllers/tag_controller.rb -text
 app/controllers/tag_implication_controller.rb -text
 app/controllers/user_controller.rb -text
 app/controllers/wiki_controller.rb -text
-app/helpers/account_helper.rb -text
 app/helpers/admin_helper.rb -text
 app/helpers/application_helper.rb -text
 app/helpers/artist_helper.rb -text
@@ -31,6 +30,7 @@ app/helpers/static_helper.rb -text
 app/helpers/tag_alias_helper.rb -text
 app/helpers/tag_helper.rb -text
 app/helpers/tag_implication_helper.rb -text
+app/helpers/user_helper.rb -text
 app/helpers/wiki_helper.rb -text
 app/models/artist.rb -text
 app/models/comment.rb -text
