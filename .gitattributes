@@ -62,7 +62,6 @@ app/views/artist/edit.rhtml -text
 app/views/artist/index.rhtml -text
 app/views/artist/show.rhtml -text
 app/views/comment/_comments.rhtml -text
-app/views/comment/_comments_for_post.rhtml -text
 app/views/comment/edit.rhtml -text
 app/views/comment/index.rhtml -text
 app/views/comment/moderate.rhtml -text
