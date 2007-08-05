@@ -107,6 +107,7 @@ app/views/post/atom.rxml -text
 app/views/post/edit_tag_scripts.rhtml -text
 app/views/post/favorites.rhtml -text
 app/views/post/index.rhtml -text
+app/views/post/moderate.rhtml -text
 app/views/post/popular_by_day.rhtml -text
 app/views/post/popular_by_month.rhtml -text
 app/views/post/popular_by_week.rhtml -text
