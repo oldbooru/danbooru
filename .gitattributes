@@ -78,6 +78,7 @@ app/views/help/bookmarklet.rhtml -text
 app/views/help/cheatsheet.rhtml -text
 app/views/help/comments.rhtml -text
 app/views/help/extension.rhtml -text
+app/views/help/faq.rhtml -text
 app/views/help/favorites.rhtml -text
 app/views/help/index.rhtml -text
 app/views/help/irc.rhtml -text
