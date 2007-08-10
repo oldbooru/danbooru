@@ -106,7 +106,6 @@ app/views/post/_search.rhtml -text
 app/views/post/_tags.rhtml -text
 app/views/post/atom.rxml -text
 app/views/post/delete.rhtml -text
-app/views/post/edit_tag_scripts.rhtml -text
 app/views/post/favorites.rhtml -text
 app/views/post/index.rhtml -text
 app/views/post/moderate.rhtml -text
