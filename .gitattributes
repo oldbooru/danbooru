@@ -51,7 +51,6 @@ app/models/wiki_page_version.rb -text
 app/views/admin/cache_stats.rhtml -text
 app/views/admin/edit_account.rhtml -text
 app/views/admin/index.rhtml -text
-app/views/admin/settings.rhtml -text
 app/views/api/find_comments.rxml -text
 app/views/api/find_posts.rxml -text
 app/views/api/find_tag_history.rxml -text
