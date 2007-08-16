@@ -11,6 +11,7 @@ app/controllers/forum_controller.rb -text
 app/controllers/help_controller.rb -text
 app/controllers/invite_controller.rb -text
 app/controllers/note_controller.rb -text
+app/controllers/pool_controller.rb -text
 app/controllers/post_controller.rb -text
 app/controllers/static_controller.rb -text
 app/controllers/tag_alias_controller.rb -text
@@ -39,6 +40,7 @@ app/models/forum_post_view.rb -text
 app/models/invite.rb -text
 app/models/note.rb -text
 app/models/note_version.rb -text
+app/models/pool.rb -text
 app/models/post.rb -text
 app/models/post_tag_history.rb -text
 app/models/tag.rb -text
@@ -83,6 +85,7 @@ app/views/help/index.rhtml -text
 app/views/help/irc.rhtml -text
 app/views/help/mass_tag_edit.rhtml -text
 app/views/help/notes.rhtml -text
+app/views/help/pools.rhtml -text
 app/views/help/posts.rhtml -text
 app/views/help/ratings.rhtml -text
 app/views/help/source_code.rhtml -text
@@ -100,6 +103,13 @@ app/views/layouts/default.rhtml -text
 app/views/note/_note.rhtml -text
 app/views/note/history.rhtml -text
 app/views/note/index.rhtml -text
+app/views/pool/_footer.rhtml -text
+app/views/pool/add_post.rhtml -text
+app/views/pool/create.rhtml -text
+app/views/pool/destroy.rhtml -text
+app/views/pool/index.rhtml -text
+app/views/pool/order.rhtml -text
+app/views/pool/show.rhtml -text
 app/views/post/_posts.rhtml -text
 app/views/post/_search.rhtml -text
 app/views/post/_tags.rhtml -text
@@ -197,6 +207,7 @@ db/migrate/029_add_safe_post_count_to_tags.rb -text
 db/migrate/030_add_invited_by_to_users.rb -text
 db/migrate/031_create_news_updates.rb -text
 db/migrate/033_posts_add_is_flagged.rb -text
+db/migrate/034_pools_create.rb -text
 db/postgres.sql -text
 doc/README_FOR_APP -text
 doc/app/classes/AccountController.html -text
