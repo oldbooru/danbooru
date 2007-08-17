@@ -108,6 +108,8 @@ app/views/pool/_footer.rhtml -text
 app/views/pool/add_post.rhtml -text
 app/views/pool/create.rhtml -text
 app/views/pool/destroy.rhtml -text
+app/views/pool/import.rhtml -text
+app/views/pool/import.rjs -text
 app/views/pool/index.rhtml -text
 app/views/pool/order.rhtml -text
 app/views/pool/show.rhtml -text
