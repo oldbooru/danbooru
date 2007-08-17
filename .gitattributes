@@ -7,6 +7,7 @@ app/controllers/api_controller.rb -text
 app/controllers/application.rb -text
 app/controllers/artist_controller.rb -text
 app/controllers/comment_controller.rb -text
+app/controllers/favorite_controller.rb -text
 app/controllers/forum_controller.rb -text
 app/controllers/help_controller.rb -text
 app/controllers/invite_controller.rb -text
