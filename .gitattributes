@@ -173,7 +173,6 @@ config/environments/development.rb -text
 config/environments/production.rb -text
 config/environments/test.rb -text
 config/local_config.rb.example -text
-config/mongrel.yml -text
 config/routes.rb -text
 db/ja_dict.sql.bz2 -text
 db/migrate/001_add_post_links.rb -text
