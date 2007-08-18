@@ -71,7 +71,6 @@ app/views/comment/_footer.rhtml -text
 app/views/comment/edit.rhtml -text
 app/views/comment/index.rhtml -text
 app/views/comment/moderate.rhtml -text
-app/views/comment/search.rhtml -text
 app/views/comment/show.rhtml -text
 app/views/favorite/index.rhtml -text
 app/views/favorite/show.rhtml -text
