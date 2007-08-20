@@ -165,6 +165,7 @@ app/views/user_mailer/new_password.rhtml -text
 app/views/wiki/_footer.rhtml -text
 app/views/wiki/_recently_revised.rhtml -text
 app/views/wiki/_sidebar.rhtml -text
+app/views/wiki/add.rhtml -text
 app/views/wiki/diff.rhtml -text
 app/views/wiki/edit.rhtml -text
 app/views/wiki/history.rhtml -text
