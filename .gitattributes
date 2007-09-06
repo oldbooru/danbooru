@@ -9,7 +9,6 @@ app/controllers/comment_controller.rb -text
 app/controllers/favorite_controller.rb -text
 app/controllers/forum_controller.rb -text
 app/controllers/help_controller.rb -text
-app/controllers/invite_controller.rb -text
 app/controllers/note_controller.rb -text
 app/controllers/pool_controller.rb -text
 app/controllers/post_controller.rb -text
@@ -39,7 +38,6 @@ app/models/artist.rb -text
 app/models/comment.rb -text
 app/models/forum_post.rb -text
 app/models/forum_post_view.rb -text
-app/models/invite.rb -text
 app/models/note.rb -text
 app/models/note_version.rb -text
 app/models/pool.rb -text
@@ -104,7 +102,6 @@ app/views/help/tags.rhtml -text
 app/views/help/users.rhtml -text
 app/views/help/voting.rhtml -text
 app/views/help/wiki.rhtml -text
-app/views/invite/activate.rhtml -text
 app/views/layouts/bare.rhtml -text
 app/views/layouts/default.rhtml -text
 app/views/note/_note.rhtml -text
@@ -154,12 +151,10 @@ app/views/tag_alias/index.rhtml -text
 app/views/tag_implication/index.rhtml -text
 app/views/user/edit.rhtml -text
 app/views/user/home.rhtml -text
-app/views/user/invites.rhtml -text
 app/views/user/login.rhtml -text
 app/views/user/logout.rhtml -text
 app/views/user/reset_password.rhtml -text
 app/views/user/signup.rhtml -text
-app/views/user_mailer/new_invite.rhtml -text
 app/views/user_mailer/new_password.rhtml -text
 app/views/wiki/_footer.rhtml -text
 app/views/wiki/_recently_revised.rhtml -text
@@ -285,7 +280,6 @@ test/fixtures/forum_posts.yml -text
 test/fixtures/invites.yml -text
 test/functional/artist_controller_test.rb -text
 test/functional/forum_post_controller_test.rb -text
-test/functional/invite_controller_test.rb -text
 test/functional/tag_alias_controller_test.rb -text
 test/functional/tag_implication_controller_test.rb -text
 test/mocks/test/not_a_img.jpg -text
@@ -293,7 +287,6 @@ test/mocks/test/test.jpg -text
 test/test_helper.rb -text
 test/unit/artist_test.rb -text
 test/unit/forum_post_test.rb -text
-test/unit/invite_test.rb -text
 test/unit/user_mailer_test.rb -text
 vendor/image_size.rb -text
 vendor/plugins/exception_notification/README -text
