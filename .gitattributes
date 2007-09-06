@@ -105,9 +105,11 @@ app/views/help/voting.rhtml -text
 app/views/help/wiki.rhtml -text
 app/views/layouts/bare.rhtml -text
 app/views/layouts/default.rhtml -text
+app/views/note/_footer.rhtml -text
 app/views/note/_note.rhtml -text
 app/views/note/history.rhtml -text
 app/views/note/index.rhtml -text
+app/views/note/search.rhtml -text
 app/views/pool/_footer.rhtml -text
 app/views/pool/add_post.rhtml -text
 app/views/pool/create.rhtml -text
