@@ -3,7 +3,6 @@
 /LICENSE -text
 /Rakefile -text
 app/controllers/admin_controller.rb -text
-app/controllers/api_controller.rb -text
 app/controllers/application.rb -text
 app/controllers/artist_controller.rb -text
 app/controllers/comment_controller.rb -text
@@ -216,6 +215,7 @@ db/migrate/031_create_news_updates.rb -text
 db/migrate/032_forum_posts_fix_creator_id.rb -text
 db/migrate/033_posts_add_is_flagged.rb -text
 db/migrate/034_pools_create.rb -text
+db/migrate/035_users_rename_password.rb -text
 db/postgres.sql -text
 lib/arch.rb -text
 lib/cache.rb -text
