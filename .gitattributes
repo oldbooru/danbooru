@@ -36,6 +36,7 @@ app/helpers/user_helper.rb -text
 app/helpers/wiki_helper.rb -text
 app/models/artist.rb -text
 app/models/comment.rb -text
+app/models/favorite.rb -text
 app/models/forum_post.rb -text
 app/models/forum_post_view.rb -text
 app/models/note.rb -text
