@@ -149,6 +149,7 @@ app/views/tag/popular_by_month.rhtml -text
 app/views/tag/popular_by_week.rhtml -text
 app/views/tag_alias/index.rhtml -text
 app/views/tag_implication/index.rhtml -text
+app/views/user/change_password.rhtml -text
 app/views/user/edit.rhtml -text
 app/views/user/home.rhtml -text
 app/views/user/login.rhtml -text
