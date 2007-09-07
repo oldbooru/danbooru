@@ -216,6 +216,7 @@ db/migrate/032_forum_posts_fix_creator_id.rb -text
 db/migrate/033_posts_add_is_flagged.rb -text
 db/migrate/034_pools_create.rb -text
 db/migrate/035_users_rename_password.rb -text
+db/migrate/036_users_update_level.rb -text
 db/postgres.sql -text
 lib/arch.rb -text
 lib/cache.rb -text
