@@ -218,11 +218,9 @@ db/migrate/034_pools_create.rb -text
 db/migrate/035_users_rename_password.rb -text
 db/migrate/036_users_update_level.rb -text
 db/postgres.sql -text
-lib/arch.rb -text
 lib/cache.rb -text
 lib/login_system.rb -text
 lib/memcache_util_store.rb -text
-lib/persistent_hash.rb -text
 lib/resizer/Makefile -text
 lib/resizer/resizer.c -text
 lib/romanizer.rb -text
