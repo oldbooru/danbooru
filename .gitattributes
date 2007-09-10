@@ -158,10 +158,12 @@ app/views/tag_implication/index.rhtml -text
 app/views/user/change_password.rhtml -text
 app/views/user/edit.rhtml -text
 app/views/user/home.rhtml -text
+app/views/user/index.rhtml -text
 app/views/user/invites.rhtml -text
 app/views/user/login.rhtml -text
 app/views/user/logout.rhtml -text
 app/views/user/reset_password.rhtml -text
+app/views/user/show.rhtml -text
 app/views/user/signup.rhtml -text
 app/views/user_mailer/new_password.rhtml -text
 app/views/wiki/_footer.rhtml -text
