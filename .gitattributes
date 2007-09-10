@@ -12,6 +12,7 @@ app/controllers/help_controller.rb -text
 app/controllers/note_controller.rb -text
 app/controllers/pool_controller.rb -text
 app/controllers/post_controller.rb -text
+app/controllers/report_controller.rb -text
 app/controllers/static_controller.rb -text
 app/controllers/tag_alias_controller.rb -text
 app/controllers/tag_controller.rb -text
@@ -28,6 +29,7 @@ app/helpers/invite_helper.rb -text
 app/helpers/note_helper.rb -text
 app/helpers/pool_helper.rb -text
 app/helpers/post_helper.rb -text
+app/helpers/report_helper.rb -text
 app/helpers/static_helper.rb -text
 app/helpers/tag_alias_helper.rb -text
 app/helpers/tag_helper.rb -text
@@ -218,6 +220,7 @@ db/migrate/033_posts_add_is_flagged.rb -text
 db/migrate/034_pools_create.rb -text
 db/migrate/035_users_rename_password.rb -text
 db/migrate/036_users_update_level.rb -text
+db/migrate/037_users_add_created_at.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/login_system.rb -text
