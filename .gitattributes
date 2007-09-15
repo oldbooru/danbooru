@@ -3,6 +3,7 @@
 /LICENSE -text
 /Rakefile -text
 app/controllers/admin_controller.rb -text
+app/controllers/api_controller.rb -text
 app/controllers/application.rb -text
 app/controllers/artist_controller.rb -text
 app/controllers/comment_controller.rb -text
