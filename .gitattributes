@@ -225,6 +225,7 @@ db/migrate/035_users_rename_password.rb -text
 db/migrate/036_users_update_level.rb -text
 db/migrate/037_users_add_created_at.rb -text
 db/migrate/038_favorites_add_created_at.rb -text
+db/migrate/039_posts_add_is_pending.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/login_system.rb -text
