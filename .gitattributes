@@ -175,6 +175,7 @@ app/views/wiki/diff.rhtml -text
 app/views/wiki/edit.rhtml -text
 app/views/wiki/history.rhtml -text
 app/views/wiki/index.rhtml -text
+app/views/wiki/recent_changes.rhtml -text
 app/views/wiki/rename.rhtml -text
 app/views/wiki/show.rhtml -text
 config/boot.rb -text
