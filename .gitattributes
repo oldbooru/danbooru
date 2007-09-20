@@ -325,5 +325,3 @@ vendor/plugins/image_store/lib/image_store.rb -text
 vendor/plugins/image_store/tasks/image_store_tasks.rake -text
 vendor/plugins/image_store/test/image_store_test.rb -text
 vendor/plugins/image_store/uninstall.rb -text
-vendor/plugins/votable/init.rb -text
-vendor/plugins/votable/lib/votable.rb -text
