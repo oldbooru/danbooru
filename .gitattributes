@@ -104,7 +104,6 @@ app/views/help/tag_implications.rhtml -text
 app/views/help/tag_scripts.rhtml -text
 app/views/help/tags.rhtml -text
 app/views/help/users.rhtml -text
-app/views/help/voting.rhtml -text
 app/views/help/wiki.rhtml -text
 app/views/layouts/bare.rhtml -text
 app/views/layouts/default.rhtml -text
