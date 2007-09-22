@@ -67,6 +67,7 @@ app/views/artist/destroy.rjs -text
 app/views/artist/edit.rhtml -text
 app/views/artist/index.rhtml -text
 app/views/artist/show.rhtml -text
+app/views/comment/_comment.rhtml -text
 app/views/comment/_comments.rhtml -text
 app/views/comment/_footer.rhtml -text
 app/views/comment/edit.rhtml -text
