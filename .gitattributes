@@ -104,6 +104,7 @@ app/views/help/tag_implications.rhtml -text
 app/views/help/tag_scripts.rhtml -text
 app/views/help/tags.rhtml -text
 app/views/help/users.rhtml -text
+app/views/help/voting.rhtml -text
 app/views/help/wiki.rhtml -text
 app/views/layouts/bare.rhtml -text
 app/views/layouts/default.rhtml -text
@@ -229,7 +230,6 @@ db/migrate/037_users_add_created_at.rb -text
 db/migrate/038_favorites_add_created_at.rb -text
 db/migrate/039_posts_add_is_pending.rb -text
 db/migrate/040_cleanup.rb -text
-db/migrate/041_posts_remove_voting.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/login_system.rb -text
@@ -326,3 +326,5 @@ vendor/plugins/image_store/lib/image_store.rb -text
 vendor/plugins/image_store/tasks/image_store_tasks.rake -text
 vendor/plugins/image_store/test/image_store_test.rb -text
 vendor/plugins/image_store/uninstall.rb -text
+vendor/plugins/votable/init.rb -text
+vendor/plugins/votable/lib/votable.rb -text
