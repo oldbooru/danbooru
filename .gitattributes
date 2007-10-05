@@ -238,6 +238,7 @@ lib/login_system.rb -text
 lib/memcache_util_store.rb -text
 lib/resizer/Makefile -text
 lib/resizer/resizer.c -text
+lib/resizer/similar.c -text
 lib/romanizer.rb -text
 lib/withindex.rb -text
 public/404.html -text
