@@ -237,13 +237,10 @@ db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.c -text
 lib/danbooru_image_resizer/extconf.rb -text
+lib/danbooru_image_similarity/danbooru_image_similarity.c -text
+lib/danbooru_image_similarity/extconf.rb -text
 lib/login_system.rb -text
 lib/memcache_util_store.rb -text
-lib/resizer/Makefile -text
-lib/resizer/resizer.c -text
-lib/resizer/similar.c -text
-lib/romanizer.rb -text
-lib/withindex.rb -text
 public/404.html -text
 public/500.html -text
 public/dispatch.cgi -text
