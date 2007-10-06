@@ -232,6 +232,7 @@ db/migrate/038_favorites_add_created_at.rb -text
 db/migrate/039_posts_add_is_pending.rb -text
 db/migrate/040_cleanup.rb -text
 db/migrate/041_users_add_ip_addr.rb -text
+db/migrate/042_note_versions_add_index_on_user_id.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/login_system.rb -text
