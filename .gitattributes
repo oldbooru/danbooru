@@ -243,6 +243,7 @@ lib/danbooru_image_similarity/danbooru_image_similarity.c -text
 lib/danbooru_image_similarity/extconf.rb -text
 lib/danbooru_image_similarity/gheap.c -text
 lib/danbooru_image_similarity/gheap.h -text
+lib/danbooru_image_similarity/test.sh -text
 lib/login_system.rb -text
 lib/memcache_util_store.rb -text
 public/404.html -text
