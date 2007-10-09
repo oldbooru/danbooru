@@ -233,6 +233,7 @@ db/migrate/039_posts_add_is_pending.rb -text
 db/migrate/040_cleanup.rb -text
 db/migrate/041_users_add_ip_addr.rb -text
 db/migrate/042_note_versions_add_index_on_user_id.rb -text
+db/migrate/043_flagged_posts_create.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.c -text
