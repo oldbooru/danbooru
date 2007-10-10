@@ -25,7 +25,7 @@ app/helpers/application_helper.rb -text
 app/helpers/artist_helper.rb -text
 app/helpers/comment_helper.rb -text
 app/helpers/favorite_helper.rb -text
-app/helpers/forum_post_helper.rb -text
+app/helpers/forum_helper.rb -text
 app/helpers/invite_helper.rb -text
 app/helpers/note_helper.rb -text
 app/helpers/pool_helper.rb -text
@@ -42,7 +42,6 @@ app/models/comment.rb -text
 app/models/favorite.rb -text
 app/models/flagged_post.rb -text
 app/models/forum_post.rb -text
-app/models/forum_post_view.rb -text
 app/models/note.rb -text
 app/models/note_version.rb -text
 app/models/pool.rb -text
@@ -235,6 +234,7 @@ db/migrate/040_cleanup.rb -text
 db/migrate/041_users_add_ip_addr.rb -text
 db/migrate/042_note_versions_add_index_on_user_id.rb -text
 db/migrate/043_flagged_posts_create.rb -text
+db/migrate/044_forum_add_is_locked.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.c -text
