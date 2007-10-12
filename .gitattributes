@@ -169,6 +169,7 @@ app/views/user/logout.rhtml -text
 app/views/user/reset_password.rhtml -text
 app/views/user/show.rhtml -text
 app/views/user/signup.rhtml -text
+app/views/user_mailer/confirmation_email.rhtml -text
 app/views/user_mailer/new_password.rhtml -text
 app/views/wiki/_footer.rhtml -text
 app/views/wiki/_recently_revised.rhtml -text
