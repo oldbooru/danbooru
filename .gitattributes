@@ -19,6 +19,7 @@ app/controllers/tag_alias_controller.rb -text
 app/controllers/tag_controller.rb -text
 app/controllers/tag_implication_controller.rb -text
 app/controllers/user_controller.rb -text
+app/controllers/user_record_controller.rb -text
 app/controllers/wiki_controller.rb -text
 app/helpers/admin_helper.rb -text
 app/helpers/application_helper.rb -text
@@ -52,6 +53,7 @@ app/models/tag_alias.rb -text
 app/models/tag_implication.rb -text
 app/models/user.rb -text
 app/models/user_mailer.rb -text
+app/models/user_record.rb -text
 app/models/wiki_page.rb -text
 app/models/wiki_page_version.rb -text
 app/views/admin/cache_stats.rhtml -text
@@ -171,6 +173,10 @@ app/views/user/show.rhtml -text
 app/views/user/signup.rhtml -text
 app/views/user_mailer/confirmation_email.rhtml -text
 app/views/user_mailer/new_password.rhtml -text
+app/views/user_record/_footer.rhtml -text
+app/views/user_record/create.rhtml -text
+app/views/user_record/destroy.rhtml -text
+app/views/user_record/index.rhtml -text
 app/views/wiki/_footer.rhtml -text
 app/views/wiki/_recently_revised.rhtml -text
 app/views/wiki/_sidebar.rhtml -text
@@ -236,6 +242,7 @@ db/migrate/041_users_add_ip_addr.rb -text
 db/migrate/042_note_versions_add_index_on_user_id.rb -text
 db/migrate/043_flagged_posts_create.rb -text
 db/migrate/044_forum_add_is_locked.rb -text
+db/migrate/045_user_records_create.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.c -text
