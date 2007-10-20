@@ -98,6 +98,7 @@ app/views/help/irc.rhtml -text
 app/views/help/mass_tag_edit.rhtml -text
 app/views/help/notes.rhtml -text
 app/views/help/pools.rhtml -text
+app/views/help/post_relationships.rhtml -text
 app/views/help/posts.rhtml -text
 app/views/help/ratings.rhtml -text
 app/views/help/source_code.rhtml -text
