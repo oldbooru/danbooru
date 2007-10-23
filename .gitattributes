@@ -246,6 +246,7 @@ db/migrate/044_forum_add_is_locked.rb -text
 db/migrate/045_user_records_create.rb -text
 db/migrate/046_posts_tags_add_foreign_keys.rb -text
 db/migrate/047_posts_add_parent_id.rb -text
+db/migrate/048_posts_add_has_children.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.c -text
