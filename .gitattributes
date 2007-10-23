@@ -249,6 +249,7 @@ db/migrate/047_posts_add_parent_id.rb -text
 db/migrate/048_posts_add_has_children.rb -text
 db/migrate/049_flagged_posts_drop_foreign_key.rb -text
 db/migrate/050_posts_tags_fix_foreign_keys.rb -text
+db/migrate/051_posts_drop_has_children.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.c -text
