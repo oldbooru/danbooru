@@ -8,6 +8,7 @@ app/controllers/application.rb -text
 app/controllers/artist_controller.rb -text
 app/controllers/comment_controller.rb -text
 app/controllers/favorite_controller.rb -text
+app/controllers/flagged_post_controller.rb -text
 app/controllers/forum_controller.rb -text
 app/controllers/help_controller.rb -text
 app/controllers/note_controller.rb -text
@@ -79,6 +80,7 @@ app/views/comment/show.rhtml -text
 app/views/favorite/index.rhtml -text
 app/views/favorite/show.rhtml -text
 app/views/favorite/show_atom.rxml -text
+app/views/flagged_post/index.rhtml -text
 app/views/forum/_post.rhtml -text
 app/views/forum/add.rhtml -text
 app/views/forum/edit.rhtml -text
@@ -250,6 +252,7 @@ db/migrate/048_posts_add_has_children.rb -text
 db/migrate/049_flagged_posts_drop_foreign_key.rb -text
 db/migrate/050_posts_tags_fix_foreign_keys.rb -text
 db/migrate/051_posts_drop_has_children.rb -text
+db/migrate/052_flagged_posts_add_user_id.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.c -text
