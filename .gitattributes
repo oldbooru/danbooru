@@ -3,7 +3,6 @@
 /LICENSE -text
 /Rakefile -text
 app/controllers/admin_controller.rb -text
-app/controllers/api_controller.rb -text
 app/controllers/application.rb -text
 app/controllers/artist_controller.rb -text
 app/controllers/comment_controller.rb -text
@@ -150,11 +149,9 @@ app/views/static/more.rhtml -text
 app/views/static/redirect.rhtml -text
 app/views/tag/_alpha_paginator.rhtml -text
 app/views/tag/_footer.rhtml -text
-app/views/tag/aliases.rhtml -text
 app/views/tag/cloud.rhtml -text
 app/views/tag/edit.rhtml -text
 app/views/tag/edit_preview.rhtml -text
-app/views/tag/implications.rhtml -text
 app/views/tag/index.rhtml -text
 app/views/tag/mass_edit.rhtml -text
 app/views/tag/popular_by_day.rhtml -text
