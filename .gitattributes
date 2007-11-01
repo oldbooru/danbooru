@@ -77,11 +77,11 @@ app/views/comment/show.rhtml -text
 app/views/favorite/index.rhtml -text
 app/views/favorite/show.rhtml -text
 app/views/favorite/show_atom.rxml -text
-app/views/flagged_post/index.rhtml -text
 app/views/forum/_post.rhtml -text
 app/views/forum/add.rhtml -text
 app/views/forum/edit.rhtml -text
 app/views/forum/index.rhtml -text
+app/views/forum/search.rhtml -text
 app/views/forum/show.rhtml -text
 app/views/help/about.rhtml -text
 app/views/help/api.rhtml -text
@@ -250,6 +250,7 @@ db/migrate/051_posts_drop_has_children.rb -text
 db/migrate/052_flagged_posts_add_user_id.rb -text
 db/migrate/053_convert_ip_text_to_inet.rb -text
 db/migrate/054_posts_add_status.rb -text
+db/migrate/055_add_full_text_search.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.c -text
