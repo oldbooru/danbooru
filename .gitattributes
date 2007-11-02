@@ -297,6 +297,7 @@ public/stylesheets/default.css -text
 script/about -text
 script/benchmarker -text
 script/breakpointer -text
+script/build_application_js.sh -text
 script/console -text
 script/console_sandbox -text
 script/destroy -text
