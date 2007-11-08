@@ -87,6 +87,7 @@ app/views/help/comments.rhtml -text
 app/views/help/extension.rhtml -text
 app/views/help/faq.rhtml -text
 app/views/help/favorites.rhtml -text
+app/views/help/forum.rhtml -text
 app/views/help/index.rhtml -text
 app/views/help/irc.rhtml -text
 app/views/help/mass_tag_edit.rhtml -text
