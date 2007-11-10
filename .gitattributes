@@ -248,7 +248,8 @@ db/migrate/052_flagged_posts_add_user_id.rb -text
 db/migrate/053_convert_ip_text_to_inet.rb -text
 db/migrate/054_posts_add_status.rb -text
 db/migrate/055_add_full_text_search.rb -text
-db/migrate/056_drop_post_count_triggers.rb -text
+db/migrate/056_add_text_search_to_versions.rb -text
+db/migrate/057_drop_post_count_triggers.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.c -text
