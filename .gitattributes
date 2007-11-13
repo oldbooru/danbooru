@@ -345,13 +345,5 @@ vendor/plugins/exception_notification/views/exception_notifier/_request.rhtml -t
 vendor/plugins/exception_notification/views/exception_notifier/_session.rhtml -text
 vendor/plugins/exception_notification/views/exception_notifier/_title.rhtml -text
 vendor/plugins/exception_notification/views/exception_notifier/exception_notification.rhtml -text
-vendor/plugins/image_store/README -text
-vendor/plugins/image_store/Rakefile -text
-vendor/plugins/image_store/init.rb -text
-vendor/plugins/image_store/install.rb -text
-vendor/plugins/image_store/lib/image_store.rb -text
-vendor/plugins/image_store/tasks/image_store_tasks.rake -text
-vendor/plugins/image_store/test/image_store_test.rb -text
-vendor/plugins/image_store/uninstall.rb -text
 vendor/plugins/votable/init.rb -text
 vendor/plugins/votable/lib/votable.rb -text
