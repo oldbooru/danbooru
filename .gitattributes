@@ -12,7 +12,6 @@ app/controllers/help_controller.rb -text
 app/controllers/note_controller.rb -text
 app/controllers/pool_controller.rb -text
 app/controllers/post_controller.rb -text
-app/controllers/report_controller.rb -text
 app/controllers/static_controller.rb -text
 app/controllers/tag_alias_controller.rb -text
 app/controllers/tag_controller.rb -text
