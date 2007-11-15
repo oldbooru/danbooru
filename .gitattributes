@@ -315,6 +315,7 @@ script/process/reaper -text
 script/process/spawner -text
 script/process/spinner -text
 script/profiler -text
+script/prune_unapproved_posts -text
 script/runner -text
 script/server -text
 script/spin -text
