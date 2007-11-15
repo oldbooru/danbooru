@@ -345,5 +345,3 @@ vendor/plugins/exception_notification/views/exception_notifier/_request.rhtml -t
 vendor/plugins/exception_notification/views/exception_notifier/_session.rhtml -text
 vendor/plugins/exception_notification/views/exception_notifier/_title.rhtml -text
 vendor/plugins/exception_notification/views/exception_notifier/exception_notification.rhtml -text
-vendor/plugins/redhillonrails_core/CHANGELOG -text
-vendor/plugins/redhillonrails_core/init.rb -text
