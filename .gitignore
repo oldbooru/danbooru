@@ -1,0 +1,7 @@
+config/database.yml[!!-~]local_config.rb
+db/schema.rb
+lib/danbooru_image_resizer/mkmf.log[!!-~]Makefile[!!-~]danbooru_image_resizer.bundle
+log/development.log
+public/data/*
+public/data/preview/*
+tmp/sessions/*
