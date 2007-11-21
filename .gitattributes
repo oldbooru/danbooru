@@ -177,6 +177,7 @@ app/views/user/reset_password.rhtml -text
 app/views/user/show.rhtml -text
 app/views/user/signup.rhtml -text
 app/views/user_mailer/confirmation_email.rhtml -text
+app/views/user_mailer/dmail.rhtml -text
 app/views/user_mailer/new_password.rhtml -text
 app/views/user_record/_footer.rhtml -text
 app/views/user_record/create.rhtml -text
@@ -262,6 +263,7 @@ db/migrate/056_add_text_search_to_versions.rb -text
 db/migrate/057_drop_post_count_triggers.rb -text
 db/migrate/058_remove_notes_from_artists.rb -text
 db/migrate/059_create_dmails.rb -text
+db/migrate/060_add_receive_mails_to_users.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.bundle -text
