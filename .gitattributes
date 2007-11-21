@@ -340,7 +340,6 @@ test/fixtures/forum_posts.yml -text
 test/fixtures/invites.yml -text
 test/fixtures/users.yml -text
 test/functional/artist_controller_test.rb -text
-test/functional/d_mail_controller_test.rb -text
 test/functional/dmail_controller_test.rb -text
 test/functional/forum_post_controller_test.rb -text
 test/functional/tag_alias_controller_test.rb -text
