@@ -6,6 +6,7 @@ app/controllers/admin_controller.rb -text
 app/controllers/application.rb -text
 app/controllers/artist_controller.rb -text
 app/controllers/comment_controller.rb -text
+app/controllers/dmail_controller.rb -text
 app/controllers/favorite_controller.rb -text
 app/controllers/forum_controller.rb -text
 app/controllers/help_controller.rb -text
@@ -23,6 +24,7 @@ app/helpers/admin_helper.rb -text
 app/helpers/application_helper.rb -text
 app/helpers/artist_helper.rb -text
 app/helpers/comment_helper.rb -text
+app/helpers/dmail_helper.rb -text
 app/helpers/favorite_helper.rb -text
 app/helpers/forum_helper.rb -text
 app/helpers/invite_helper.rb -text
@@ -38,6 +40,7 @@ app/helpers/user_helper.rb -text
 app/helpers/wiki_helper.rb -text
 app/models/artist.rb -text
 app/models/comment.rb -text
+app/models/dmail.rb -text
 app/models/favorite.rb -text
 app/models/forum_post.rb -text
 app/models/note.rb -text
@@ -69,6 +72,13 @@ app/views/comment/edit.rhtml -text
 app/views/comment/index.rhtml -text
 app/views/comment/moderate.rhtml -text
 app/views/comment/show.rhtml -text
+app/views/dmail/_compose.rhtml -text
+app/views/dmail/_footer.rhtml -text
+app/views/dmail/_mail_list.rhtml -text
+app/views/dmail/compose.rhtml -text
+app/views/dmail/inbox.rhtml -text
+app/views/dmail/sent.rhtml -text
+app/views/dmail/show.rhtml -text
 app/views/favorite/index.rhtml -text
 app/views/favorite/show.rhtml -text
 app/views/favorite/show_atom.rxml -text
@@ -251,6 +261,7 @@ db/migrate/055_add_full_text_search.rb -text
 db/migrate/056_add_text_search_to_versions.rb -text
 db/migrate/057_drop_post_count_triggers.rb -text
 db/migrate/058_remove_notes_from_artists.rb -text
+db/migrate/059_create_dmails.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.bundle -text
@@ -324,9 +335,13 @@ script/runner -text
 script/server -text
 script/spin -text
 test/fixtures/artists.yml -text
+test/fixtures/dmails.yml -text
 test/fixtures/forum_posts.yml -text
 test/fixtures/invites.yml -text
+test/fixtures/users.yml -text
 test/functional/artist_controller_test.rb -text
+test/functional/d_mail_controller_test.rb -text
+test/functional/dmail_controller_test.rb -text
 test/functional/forum_post_controller_test.rb -text
 test/functional/tag_alias_controller_test.rb -text
 test/functional/tag_implication_controller_test.rb -text
@@ -334,6 +349,7 @@ test/mocks/test/not_a_img.jpg -text
 test/mocks/test/test.jpg -text
 test/test_helper.rb -text
 test/unit/artist_test.rb -text
+test/unit/dmail_test.rb -text
 test/unit/forum_post_test.rb -text
 test/unit/user_mailer_test.rb -text
 vendor/image_size.rb -text
