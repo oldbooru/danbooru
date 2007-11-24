@@ -264,6 +264,7 @@ db/migrate/057_drop_post_count_triggers.rb -text
 db/migrate/058_remove_notes_from_artists.rb -text
 db/migrate/059_create_dmails.rb -text
 db/migrate/060_add_receive_mails_to_users.rb -text
+db/migrate/061_change_translation_note_syntax.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.bundle -text
