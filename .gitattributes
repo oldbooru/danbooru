@@ -366,6 +366,8 @@ vendor/plugins/exception_notification/views/exception_notifier/_request.rhtml -t
 vendor/plugins/exception_notification/views/exception_notifier/_session.rhtml -text
 vendor/plugins/exception_notification/views/exception_notifier/_title.rhtml -text
 vendor/plugins/exception_notification/views/exception_notifier/exception_notification.rhtml -text
+vendor/plugins/html5sanitizer/init.rb -text
+vendor/plugins/html5sanitizer/lib/html5sanitizer.rb -text
 vendor/plugins/redhillonrails_core/CHANGELOG -text
 vendor/plugins/redhillonrails_core/MIT-LICENSE -text
 vendor/plugins/redhillonrails_core/README -text
