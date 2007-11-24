@@ -297,6 +297,7 @@ public/javascripts/comment.js -text
 public/javascripts/common.js -text
 public/javascripts/controls.js -text
 public/javascripts/cookie.js -text
+public/javascripts/dmail.js -text
 public/javascripts/dragdrop.js -text
 public/javascripts/effects.js -text
 public/javascripts/favorite.js -text
