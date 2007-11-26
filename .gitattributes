@@ -74,11 +74,11 @@ app/views/comment/moderate.rhtml -text
 app/views/comment/show.rhtml -text
 app/views/dmail/_compose.rhtml -text
 app/views/dmail/_footer.rhtml -text
-app/views/dmail/_mail_list.rhtml -text
+app/views/dmail/_message.rhtml -text
 app/views/dmail/compose.rhtml -text
 app/views/dmail/inbox.rhtml -text
-app/views/dmail/sent.rhtml -text
 app/views/dmail/show.rhtml -text
+app/views/dmail/show_previous_messages.rhtml -text
 app/views/favorite/index.rhtml -text
 app/views/favorite/show.rhtml -text
 app/views/favorite/show_atom.rxml -text
@@ -264,6 +264,7 @@ db/migrate/057_drop_post_count_triggers.rb -text
 db/migrate/058_remove_notes_from_artists.rb -text
 db/migrate/059_create_dmails.rb -text
 db/migrate/060_add_receive_mails_to_users.rb -text
+db/migrate/061_enhance_dmails.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.bundle -text
@@ -277,6 +278,7 @@ lib/danbooru_image_similarity/gheap.h -text
 lib/danbooru_image_similarity/test.sh -text
 lib/login_system.rb -text
 lib/memcache_util_store.rb -text
+lib/tasks/rollback.rake -text
 public/404.html -text
 public/500.html -text
 public/dispatch.cgi -text
