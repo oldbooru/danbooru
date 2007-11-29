@@ -39,6 +39,7 @@ app/helpers/tag_implication_helper.rb -text
 app/helpers/user_helper.rb -text
 app/helpers/wiki_helper.rb -text
 app/models/artist.rb -text
+app/models/ban.rb -text
 app/models/comment.rb -text
 app/models/dmail.rb -text
 app/models/favorite.rb -text
@@ -265,6 +266,7 @@ db/migrate/058_remove_notes_from_artists.rb -text
 db/migrate/059_create_dmails.rb -text
 db/migrate/060_add_receive_mails_to_users.rb -text
 db/migrate/061_enhance_dmails.rb -text
+db/migrate/062_create_bans.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.bundle -text
