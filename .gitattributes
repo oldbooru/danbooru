@@ -167,6 +167,7 @@ app/views/tag_alias/add.rhtml -text
 app/views/tag_alias/index.rhtml -text
 app/views/tag_implication/add.rhtml -text
 app/views/tag_implication/index.rhtml -text
+app/views/user/block_account.rhtml -text
 app/views/user/change_password.rhtml -text
 app/views/user/edit.rhtml -text
 app/views/user/home.rhtml -text
