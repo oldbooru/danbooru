@@ -146,7 +146,6 @@ app/views/post/moderate.rhtml -text
 app/views/post/popular_by_day.rhtml -text
 app/views/post/popular_by_month.rhtml -text
 app/views/post/popular_by_week.rhtml -text
-app/views/post/recent_searches.rhtml -text
 app/views/post/show.rhtml -text
 app/views/post/tag_history.rhtml -text
 app/views/post/upload.rhtml -text
