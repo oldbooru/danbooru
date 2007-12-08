@@ -323,6 +323,7 @@ public/stylesheets/default.css -text
 script/about -text
 script/backup_db -text
 script/backup_db_to_s3 -text
+script/backup_svn_to_s3 -text
 script/benchmarker -text
 script/breakpointer -text
 script/build_application_js.sh -text
@@ -344,6 +345,7 @@ script/process/spawner -text
 script/process/spinner -text
 script/process_logs -text
 script/profiler -text
+script/prune_backup_dbs -text
 script/prune_unapproved_posts -text
 script/runner -text
 script/server -text
