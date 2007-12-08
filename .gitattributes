@@ -322,6 +322,7 @@ public/robots.txt -text
 public/stylesheets/default.css -text
 script/about -text
 script/backup_db -text
+script/backup_db_to_s3 -text
 script/benchmarker -text
 script/breakpointer -text
 script/build_application_js.sh -text
