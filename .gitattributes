@@ -326,6 +326,7 @@ script/breakpointer -text
 script/build_application_js.sh -text
 script/console -text
 script/console_sandbox -text
+script/deploy -text
 script/destroy -text
 script/dump_sqlite -text
 script/fix_tags -text
