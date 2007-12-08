@@ -321,6 +321,7 @@ public/maintenance2.html -text
 public/robots.txt -text
 public/stylesheets/default.css -text
 script/about -text
+script/backup_db -text
 script/benchmarker -text
 script/breakpointer -text
 script/build_application_js.sh -text
