@@ -331,7 +331,6 @@ script/destroy -text
 script/dump_sqlite -text
 script/fix_tags -text
 script/generate -text
-script/maintenance -text
 script/performance/benchmarker -text
 script/performance/profiler -text
 script/plugin -text
