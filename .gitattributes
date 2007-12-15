@@ -269,6 +269,7 @@ db/migrate/061_enhance_dmails.rb -text
 db/migrate/062_create_bans.rb -text
 db/migrate/063_add_blacklisted_tags_to_users.rb -text
 db/migrate/064_remove_neighbor_constraints.rb -text
+db/migrate/065_remove_yaml.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.bundle -text
