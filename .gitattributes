@@ -281,6 +281,7 @@ lib/danbooru_image_similarity/extconf.rb -text
 lib/danbooru_image_similarity/gheap.c -text
 lib/danbooru_image_similarity/gheap.h -text
 lib/danbooru_image_similarity/test.sh -text
+lib/html_4_tags.rb -text
 lib/login_system.rb -text
 lib/memcache_util_store.rb -text
 lib/tasks/rollback.rake -text
