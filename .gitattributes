@@ -290,10 +290,6 @@ public/500.html -text
 public/dispatch.cgi -text
 public/dispatch.fcgi -text
 public/dispatch.rb -text
-public/dtd/pools.dtd -text
-public/dtd/posts.dtd -text
-public/dtd/tags.dtd -text
-public/dtd/wiki.dtd -text
 public/favicon.ico -text
 public/images/404.jpg -text
 public/images/500.jpg -text
