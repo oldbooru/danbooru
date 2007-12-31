@@ -62,6 +62,7 @@ app/views/admin/edit_account.rhtml -text
 app/views/admin/index.rhtml -text
 app/views/admin/reset_password.rhtml -text
 app/views/artist/add.rhtml -text
+app/views/artist/delete.rhtml -text
 app/views/artist/destroy.rjs -text
 app/views/artist/edit.rhtml -text
 app/views/artist/index.rhtml -text
