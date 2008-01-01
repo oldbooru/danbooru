@@ -133,7 +133,6 @@ app/views/pool/import.rjs -text
 app/views/pool/index.rhtml -text
 app/views/pool/order.rhtml -text
 app/views/pool/show.rhtml -text
-app/views/pool/slideshow.rhtml -text
 app/views/pool/update.rhtml -text
 app/views/post/_posts.rhtml -text
 app/views/post/_search.rhtml -text
