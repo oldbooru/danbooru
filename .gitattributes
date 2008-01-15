@@ -1,5 +1,8 @@
 * text=auto !eol
 /INSTALL -text
+/INSTALL.debian -text
+/INSTALL.fedora -text
+/INSTALL.freebsd -text
 /LICENSE -text
 /Rakefile -text
 app/controllers/admin_controller.rb -text
