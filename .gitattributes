@@ -156,7 +156,9 @@ app/views/post/show.rhtml -text
 app/views/post/upload.rhtml -text
 app/views/post_tag_history/index.rhtml -text
 app/views/post_tag_history/revert.rhtml -text
+app/views/report/note_changes.rhtml -text
 app/views/report/tag_changes.rhtml -text
+app/views/report/wiki_changes.rhtml -text
 app/views/static/500.rhtml -text
 app/views/static/index.rhtml -text
 app/views/static/more.rhtml -text
@@ -293,6 +295,7 @@ lib/danbooru_image_similarity/test.sh -text
 lib/html_4_tags.rb -text
 lib/login_system.rb -text
 lib/memcache_util_store.rb -text
+lib/report.rb -text
 lib/tasks/rollback.rake -text
 public/404.html -text
 public/500.html -text
