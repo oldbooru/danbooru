@@ -300,6 +300,8 @@ lib/report.rb -text
 lib/tasks/rollback.rake -text
 public/404.html -text
 public/500.html -text
+public/data/preview/deleted.png -text
+public/data/preview/download.png -text
 public/dispatch.cgi -text
 public/dispatch.fcgi -text
 public/dispatch.rb -text
