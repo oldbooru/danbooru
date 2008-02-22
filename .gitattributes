@@ -44,6 +44,7 @@ app/helpers/tag_implication_helper.rb -text
 app/helpers/user_helper.rb -text
 app/helpers/wiki_helper.rb -text
 app/models/artist.rb -text
+app/models/artist_url.rb -text
 app/models/ban.rb -text
 app/models/comment.rb -text
 app/models/dmail.rb -text
