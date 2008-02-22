@@ -286,6 +286,8 @@ db/migrate/065_remove_yaml.rb -text
 db/migrate/066_fix_user_levels.rb -text
 db/migrate/067_create_artist_urls.rb -text
 db/migrate/068_add_pixiv_to_artists.rb -text
+db/migrate/069_clean_up_users.rb -text
+db/migrate/070_add_approved_by_to_posts.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.bundle -text
