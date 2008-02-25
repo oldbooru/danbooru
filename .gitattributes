@@ -49,6 +49,7 @@ app/models/ban.rb -text
 app/models/comment.rb -text
 app/models/dmail.rb -text
 app/models/favorite.rb -text
+app/models/flagged_post_detail.rb -text
 app/models/forum_post.rb -text
 app/models/note.rb -text
 app/models/note_version.rb -text
