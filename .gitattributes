@@ -188,6 +188,7 @@ app/views/user/index.html.erb -text
 app/views/user/invites.html.erb -text
 app/views/user/login.html.erb -text
 app/views/user/logout.html.erb -text
+app/views/user/moderator_panel.html.erb -text
 app/views/user/reset_password.html.erb -text
 app/views/user/show.html.erb -text
 app/views/user/signup.html.erb -text
