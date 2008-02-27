@@ -290,6 +290,7 @@ db/migrate/069_clean_up_users.rb -text
 db/migrate/070_add_approved_by_to_posts.rb -text
 db/migrate/071_create_flagged_post_details.rb -text
 db/migrate/072_add_reason_to_aliases_and_implications.rb -text
+db/migrate/073_fix_flagged_post_details_foreign_keys.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.bundle -text
