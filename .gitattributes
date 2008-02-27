@@ -89,8 +89,6 @@ app/views/dmail/inbox.html.erb -text
 app/views/dmail/show.html.erb -text
 app/views/dmail/show_previous_messages.html.erb -text
 app/views/favorite/index.html.erb -text
-app/views/favorite/show.html.erb -text
-app/views/favorite/show_atom.xml.builder -text
 app/views/forum/_post.html.erb -text
 app/views/forum/add.html.erb -text
 app/views/forum/edit.html.erb -text
