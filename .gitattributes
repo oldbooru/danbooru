@@ -216,6 +216,10 @@ config/environment.rb -text
 config/environments/development.rb -text
 config/environments/production.rb -text
 config/environments/test.rb -text
+config/initializers/action_mailer.rb -text
+config/initializers/caching.rb -text
+config/initializers/exception_notifier.rb -text
+config/initializers/mime_types.rb -text
 config/local_config.rb.example -text
 config/routes.rb -text
 db/migrate/001_add_post_links.rb -text
