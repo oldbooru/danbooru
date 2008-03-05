@@ -88,7 +88,6 @@ app/views/dmail/compose.html.erb -text
 app/views/dmail/inbox.html.erb -text
 app/views/dmail/show.html.erb -text
 app/views/dmail/show_previous_messages.html.erb -text
-app/views/favorite/index.html.erb -text
 app/views/forum/_post.html.erb -text
 app/views/forum/add.html.erb -text
 app/views/forum/edit.html.erb -text
@@ -311,6 +310,8 @@ lib/danbooru_image_similarity/test.sh -text
 lib/html_4_tags.rb -text
 lib/login_system.rb -text
 lib/memcache_util_store.rb -text
+lib/nagato.rb -text
+lib/query_parser.rb -text
 lib/report.rb -text
 lib/tasks/rollback.rake -text
 public/404.html -text
