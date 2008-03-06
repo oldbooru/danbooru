@@ -147,6 +147,7 @@ app/views/post/delete.html.erb -text
 app/views/post/deleted_index.html.erb -text
 app/views/post/favorites.html.erb -text
 app/views/post/index.html.erb -text
+app/views/post/index.xml.erb -text
 app/views/post/moderate.html.erb -text
 app/views/post/piclens.html.erb -text
 app/views/post/popular_by_day.html.erb -text
@@ -315,6 +316,10 @@ lib/danbooru_image_resizer/danbooru_image_resizer.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.so -text
 lib/danbooru_image_resizer/extconf.rb -text
 lib/danbooru_image_resizer/jpeglib-extern.h -text
+lib/danbooru_image_resizer_old/Makefile -text
+lib/danbooru_image_resizer_old/danbooru_image_resizer.c -text
+lib/danbooru_image_resizer_old/extconf.rb -text
+lib/danbooru_image_resizer_old/mkmf.log -text
 lib/html_4_tags.rb -text
 lib/login_system.rb -text
 lib/memcache_util_store.rb -text
