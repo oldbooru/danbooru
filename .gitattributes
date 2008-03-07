@@ -297,6 +297,7 @@ db/migrate/071_create_flagged_post_details.rb -text
 db/migrate/072_add_reason_to_aliases_and_implications.rb -text
 db/migrate/073_fix_flagged_post_details_foreign_keys.rb -text
 db/migrate/074_remove_pixiv_field.rb -text
+db/migrate/075_add_sample_columns.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/GIFReader.cpp -text
@@ -362,6 +363,7 @@ public/javascripts/scriptaculous.js -text
 public/javascripts/slider.js -text
 public/javascripts/sound.js -text
 public/javascripts/unittest.js -text
+public/javascripts/user.js -text
 public/javascripts/user_record.js -text
 public/maintenance2.html -text
 public/robots.txt -text
