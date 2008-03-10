@@ -329,7 +329,6 @@ lib/nagato.rb -text
 lib/query_parser.rb -text
 lib/report.rb -text
 lib/tasks/make_sample_images.rake -text
-lib/tasks/rollback.rake -text
 public/404.html -text
 public/500.html -text
 public/data/preview/deleted.png -text
