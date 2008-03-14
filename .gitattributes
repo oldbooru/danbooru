@@ -36,6 +36,7 @@ app/helpers/invite_helper.rb -text
 app/helpers/note_helper.rb -text
 app/helpers/pool_helper.rb -text
 app/helpers/post_helper.rb -text
+app/helpers/post_tag_history_helper.rb -text
 app/helpers/report_helper.rb -text
 app/helpers/static_helper.rb -text
 app/helpers/tag_alias_helper.rb -text
