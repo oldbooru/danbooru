@@ -359,6 +359,7 @@ public/javascripts/notes.js -text
 public/javascripts/pool.js -text
 public/javascripts/post.js -text
 public/javascripts/post_mode_menu.js -text
+public/javascripts/post_tag_history.js -text
 public/javascripts/prototype.js -text
 public/javascripts/related_tags.js -text
 public/javascripts/scriptaculous.js -text
