@@ -319,10 +319,6 @@ lib/danbooru_image_resizer/danbooru_image_resizer.rb -text
 lib/danbooru_image_resizer/danbooru_image_resizer.so -text
 lib/danbooru_image_resizer/extconf.rb -text
 lib/danbooru_image_resizer/jpeglib-extern.h -text
-lib/danbooru_image_resizer_old/Makefile -text
-lib/danbooru_image_resizer_old/danbooru_image_resizer.c -text
-lib/danbooru_image_resizer_old/extconf.rb -text
-lib/danbooru_image_resizer_old/mkmf.log -text
 lib/html_4_tags.rb -text
 lib/login_system.rb -text
 lib/memcache_util_store.rb -text
