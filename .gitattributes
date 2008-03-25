@@ -156,6 +156,7 @@ app/views/post/popular_by_day.html.erb -text
 app/views/post/popular_by_month.html.erb -text
 app/views/post/popular_by_week.html.erb -text
 app/views/post/show.html.erb -text
+app/views/post/show_empty.html.erb -text
 app/views/post/upload.html.erb -text
 app/views/post_tag_history/index.html.erb -text
 app/views/post_tag_history/revert.html.erb -text
