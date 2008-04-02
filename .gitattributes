@@ -236,6 +236,7 @@ config/environments/production.rb -text
 config/environments/test.rb -text
 config/initializers/action_mailer.rb -text
 config/initializers/caching.rb -text
+config/initializers/clear_js_cache.rb -text
 config/initializers/exception_notifier.rb -text
 config/initializers/mime_types.rb -text
 config/local_config.rb.example -text
