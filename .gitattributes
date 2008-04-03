@@ -59,6 +59,7 @@ app/models/post.rb -text
 app/models/post/cache_methods.rb -text
 app/models/post/comment_methods.rb -text
 app/models/post/count_methods.rb -text
+app/models/post/file_methods.rb -text
 app/models/post/image_store/amazon_s3.rb -text
 app/models/post/image_store/local_flat.rb -text
 app/models/post/image_store/local_flat_with_amazon_s3_backup.rb -text
@@ -75,6 +76,7 @@ app/models/tag.rb -text
 app/models/tag_alias.rb -text
 app/models/tag_implication.rb -text
 app/models/user.rb -text
+app/models/user_blacklisted_tag.rb -text
 app/models/user_mailer.rb -text
 app/models/user_record.rb -text
 app/models/wiki_page.rb -text
@@ -357,7 +359,6 @@ public/images/500.jpg -text
 public/images/activity.gif -text
 public/images/down.jpg -text
 public/images/nl.png -text
-public/javascripts/application.js -text
 public/javascripts/bookmarklet.js -text
 public/javascripts/builder.js -text
 public/javascripts/comment.js -text
