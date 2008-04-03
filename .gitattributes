@@ -316,6 +316,7 @@ db/migrate/072_add_reason_to_aliases_and_implications.rb -text
 db/migrate/073_fix_flagged_post_details_foreign_keys.rb -text
 db/migrate/074_remove_pixiv_field.rb -text
 db/migrate/075_add_sample_columns.rb -text
+db/migrate/076_create_user_blacklisted_tags.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/GIFReader.cpp -text
@@ -341,6 +342,7 @@ lib/memcache_util_store.rb -text
 lib/nagato.rb -text
 lib/query_parser.rb -text
 lib/report.rb -text
+lib/tasks/blacklisted_tags.rake -text
 lib/tasks/make_sample_images.rake -text
 public/404.html -text
 public/500.html -text
