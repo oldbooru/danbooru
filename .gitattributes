@@ -72,6 +72,7 @@ app/models/post/sql_methods.rb -text
 app/models/post/tag_methods.rb -text
 app/models/post/vote_methods.rb -text
 app/models/post_tag_history.rb -text
+app/models/server_key.rb -text
 app/models/tag.rb -text
 app/models/tag_alias.rb -text
 app/models/tag_implication.rb -text
@@ -236,11 +237,12 @@ config/environment.rb -text
 config/environments/development.rb -text
 config/environments/production.rb -text
 config/environments/test.rb -text
-config/initializers/action_mailer.rb -text
-config/initializers/caching.rb -text
-config/initializers/clear_js_cache.rb -text
-config/initializers/exception_notifier.rb -text
-config/initializers/mime_types.rb -text
+config/initializers/000_load_config.rb -text
+config/initializers/001_action_mailer.rb -text
+config/initializers/002_caching.rb -text
+config/initializers/003_clear_js_cache.rb -text
+config/initializers/004_exception_notifier.rb -text
+config/initializers/005_mime_types.rb -text
 config/local_config.rb.example -text
 config/routes.rb -text
 db/migrate/001_add_post_links.rb -text
@@ -319,6 +321,7 @@ db/migrate/073_fix_flagged_post_details_foreign_keys.rb -text
 db/migrate/074_remove_pixiv_field.rb -text
 db/migrate/075_add_sample_columns.rb -text
 db/migrate/076_create_user_blacklisted_tags.rb -text
+db/migrate/077_create_server_keys.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/GIFReader.cpp -text
