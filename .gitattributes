@@ -335,7 +335,7 @@ db/migrate/076_create_user_blacklisted_tags.rb -text
 db/migrate/077_create_server_keys.rb -text
 db/migrate/078_add_neighbors_to_pools.rb -text
 db/migrate/079_create_post_change_seq.rb -text
-db/migrate/079_remove_neighbor_fields_from_posts.rb -text
+db/migrate/080_remove_neighbor_fields_from_posts.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/GIFReader.cpp -text
