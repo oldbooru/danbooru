@@ -67,7 +67,6 @@ app/models/post/image_store/local_hierarchy.rb -text
 app/models/post/image_store/remote_hierarchy.rb -text
 app/models/post/image_store_methods.rb -text
 app/models/post/parent_methods.rb -text
-app/models/post/sample_methods.rb -text
 app/models/post/sql_methods.rb -text
 app/models/post/tag_methods.rb -text
 app/models/post/vote_methods.rb -text
