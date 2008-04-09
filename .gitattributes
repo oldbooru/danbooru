@@ -253,6 +253,7 @@ config/initializers/002_caching.rb -text
 config/initializers/003_clear_js_cache.rb -text
 config/initializers/004_exception_notifier.rb -text
 config/initializers/005_mime_types.rb -text
+config/initializers/006_check_javascripts_writable.rb -text
 config/local_config.rb.example -text
 config/routes.rb -text
 db/migrate/001_add_post_links.rb -text
@@ -333,6 +334,8 @@ db/migrate/075_add_sample_columns.rb -text
 db/migrate/076_create_user_blacklisted_tags.rb -text
 db/migrate/077_create_server_keys.rb -text
 db/migrate/078_add_neighbors_to_pools.rb -text
+db/migrate/079_create_post_change_seq.rb -text
+db/migrate/079_remove_neighbor_fields_from_posts.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/GIFReader.cpp -text
