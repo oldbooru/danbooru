@@ -337,6 +337,7 @@ db/migrate/077_create_server_keys.rb -text
 db/migrate/078_add_neighbors_to_pools.rb -text
 db/migrate/079_create_post_change_seq.rb -text
 db/migrate/080_remove_neighbor_fields_from_posts.rb -text
+db/migrate/081_disable_change_seq_cache.rb -text
 db/postgres.sql -text
 db/schema-20080422.rb -text
 lib/cache.rb -text
