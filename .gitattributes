@@ -71,6 +71,7 @@ app/models/post_methods/sql_methods.rb -text
 app/models/post_methods/tag_methods.rb -text
 app/models/post_methods/vote_methods.rb -text
 app/models/post_tag_history.rb -text
+app/models/post_votes.rb -text
 app/models/server_key.rb -text
 app/models/tag.rb -text
 app/models/tag_alias.rb -text
@@ -338,6 +339,7 @@ db/migrate/078_add_neighbors_to_pools.rb -text
 db/migrate/079_create_post_change_seq.rb -text
 db/migrate/080_remove_neighbor_fields_from_posts.rb -text
 db/migrate/081_disable_change_seq_cache.rb -text
+db/migrate/082_add_post_votes.rb -text
 db/postgres.sql -text
 db/schema-20080422.rb -text
 lib/cache.rb -text
