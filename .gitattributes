@@ -459,6 +459,7 @@ test/mocks/test/test.jpg -text
 test/test_helper.rb -text
 test/unit/artist_test.rb -text
 test/unit/artist_url_test.rb -text
+test/unit/comment_test.rb -text
 vendor/image_size.rb -text
 vendor/plugins/auto_complete/README -text
 vendor/plugins/auto_complete/Rakefile -text
