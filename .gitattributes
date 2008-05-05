@@ -450,9 +450,15 @@ script/profiler -text
 script/runner -text
 script/server -text
 script/spin -text
+test/fixtures/artists.yml -text
+test/fixtures/posts.yml -text
+test/fixtures/tags.yml -text
+test/fixtures/users.yml -text
 test/mocks/test/not_a_img.jpg -text
 test/mocks/test/test.jpg -text
 test/test_helper.rb -text
+test/unit/artist_test.rb -text
+test/unit/artist_url_test.rb -text
 vendor/image_size.rb -text
 vendor/plugins/auto_complete/README -text
 vendor/plugins/auto_complete/Rakefile -text
