@@ -459,8 +459,14 @@ test/mocks/test/test.jpg -text
 test/test_helper.rb -text
 test/unit/artist_test.rb -text
 test/unit/artist_url_test.rb -text
+test/unit/ban_test.rb -text
 test/unit/comment_test.rb -text
 test/unit/dmail_test.rb -text
+test/unit/favorite_test.rb -text
+test/unit/flagged_post_detail_test.rb -text
+test/unit/forum_post_test.rb -text
+test/unit/note_test.rb -text
+test/unit/tag_test.rb -text
 vendor/image_size.rb -text
 vendor/plugins/auto_complete/README -text
 vendor/plugins/auto_complete/Rakefile -text
