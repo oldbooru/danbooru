@@ -466,6 +466,7 @@ test/unit/favorite_test.rb -text
 test/unit/flagged_post_detail_test.rb -text
 test/unit/forum_post_test.rb -text
 test/unit/note_test.rb -text
+test/unit/pool_test.rb -text
 test/unit/tag_test.rb -text
 vendor/image_size.rb -text
 vendor/plugins/auto_complete/README -text
