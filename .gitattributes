@@ -487,6 +487,7 @@ test/unit/post_test.rb -text
 test/unit/tag_alias_test.rb -text
 test/unit/tag_implication_test.rb -text
 test/unit/tag_test.rb -text
+test/unit/user_mailer_test.rb -text
 test/unit/user_test.rb -text
 vendor/image_size.rb -text
 vendor/plugins/auto_complete/README -text
