@@ -459,7 +459,14 @@ test/fixtures/posts.yml -text
 test/fixtures/table_data.yml -text
 test/fixtures/tags.yml -text
 test/fixtures/users.yml -text
+test/functional/admin_controller_test.rb -text
+test/functional/artist_controller_test.rb -text
+test/functional/comment_controller_test.rb -text
+test/functional/dmail_controller_test.rb -text
+test/functional/favorite_controller_test.rb -text
+test/functional/forum_controller_test.rb -text
 test/functional/note_controller_test.rb -text
+test/functional/pool_controller_test.rb -text
 test/mocks/test/not_a_img.jpg -text
 test/mocks/test/test1.jpg -text
 test/mocks/test/test10.jpg -text
