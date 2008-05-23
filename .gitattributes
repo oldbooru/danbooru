@@ -470,6 +470,12 @@ test/functional/pool_controller_test.rb -text
 test/functional/post_controller_test.rb -text
 test/functional/post_tag_history_controller_test.rb -text
 test/functional/report_controller_test.rb -text
+test/functional/tag_alias_controller_test.rb -text
+test/functional/tag_controller_test.rb -text
+test/functional/tag_implication_controller_test.rb -text
+test/functional/user_controller_test.rb -text
+test/functional/user_record_controller_test.rb -text
+test/functional/wiki_controller_test.rb -text
 test/mocks/test/not_a_img.jpg -text
 test/mocks/test/test1.jpg -text
 test/mocks/test/test10.jpg -text
