@@ -467,6 +467,9 @@ test/functional/favorite_controller_test.rb -text
 test/functional/forum_controller_test.rb -text
 test/functional/note_controller_test.rb -text
 test/functional/pool_controller_test.rb -text
+test/functional/post_controller_test.rb -text
+test/functional/post_tag_history_controller_test.rb -text
+test/functional/report_controller_test.rb -text
 test/mocks/test/not_a_img.jpg -text
 test/mocks/test/test1.jpg -text
 test/mocks/test/test10.jpg -text
@@ -497,6 +500,7 @@ test/unit/tag_test.rb -text
 test/unit/user_mailer_test.rb -text
 test/unit/user_record_test.rb -text
 test/unit/user_test.rb -text
+test/unit/wiki_page_test.rb -text
 vendor/image_size.rb -text
 vendor/plugins/auto_complete/README -text
 vendor/plugins/auto_complete/Rakefile -text
