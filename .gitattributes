@@ -349,6 +349,7 @@ db/migrate/085_revert_post_votes.rb -text
 db/migrate/086_add_is_active_field_to_pools.rb -text
 db/postgres.sql -text
 db/schema-20080422.rb -text
+lib/asset_cache.rb -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/GIFReader.cpp -text
 lib/danbooru_image_resizer/GIFReader.h -text
@@ -499,6 +500,7 @@ test/mocks/test/test7.jpg -text
 test/mocks/test/test8.jpg -text
 test/mocks/test/test9.jpg -text
 test/test_helper.rb -text
+test/unit/application_test.rb -text
 test/unit/artist_test.rb -text
 test/unit/artist_url_test.rb -text
 test/unit/ban_test.rb -text
