@@ -380,6 +380,7 @@ lib/report.rb -text
 lib/tasks/blacklisted_tags.rake -text
 lib/tasks/fix_blocked_users.rake -text
 lib/tasks/fix_pool_ordering.rake -text
+lib/tasks/maint.rake -text
 lib/tasks/make_sample_images.rake -text
 public/404.html -text
 public/500.html -text
