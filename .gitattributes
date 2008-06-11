@@ -76,6 +76,7 @@ app/models/post/status_methods.rb -text
 app/models/post/tag_methods.rb -text
 app/models/post/vote_methods.rb -text
 app/models/post_tag_history.rb -text
+app/models/report_mailer.rb -text
 app/models/server_key.rb -text
 app/models/tag.rb -text
 app/models/tag/api_methods.rb -text
@@ -198,6 +199,7 @@ app/views/post_tag_history/revert.html.erb -text
 app/views/report/note_changes.html.erb -text
 app/views/report/tag_changes.html.erb -text
 app/views/report/wiki_changes.html.erb -text
+app/views/report_mailer/moderator_report.html.erb -text
 app/views/static/500.html.erb -text
 app/views/static/index.html.erb -text
 app/views/static/more.html.erb -text
@@ -457,6 +459,7 @@ script/donmai/prune_unactivated_users -text
 script/donmai/prune_unapproved_posts -text
 script/donmai/restart -text
 script/donmai/rotate_logs -text
+script/donmai/send_moderator_report -text
 script/donmai/upbooru -text
 script/generate -text
 script/performance/benchmarker -text
