@@ -353,6 +353,7 @@ db/migrate/086_add_is_active_field_to_pools.rb -text
 db/migrate/087_add_dimensions_index_on_posts.rb -text
 db/migrate/088_add_approver_id_to_posts.rb -text
 db/migrate/089_add_index_on_post_source.rb -text
+db/migrate/089_add_rating_to_tag_history.rb -text
 db/postgres.sql -text
 db/schema-20080422.rb -text
 lib/asset_cache.rb -text
