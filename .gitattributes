@@ -354,8 +354,8 @@ db/migrate/087_add_dimensions_index_on_posts.rb -text
 db/migrate/088_add_approver_id_to_posts.rb -text
 db/migrate/089_add_index_on_post_source.rb -text
 db/migrate/090_add_rating_to_tag_history.rb -text
+db/migrate/091_migrate_users_to_contributor.rb -text
 db/postgres.sql -text
-db/schema-20080422.rb -text
 lib/asset_cache.rb -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/GIFReader.cpp -text
