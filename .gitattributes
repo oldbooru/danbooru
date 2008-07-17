@@ -13,6 +13,7 @@ app/controllers/dmail_controller.rb -text
 app/controllers/favorite_controller.rb -text
 app/controllers/forum_controller.rb -text
 app/controllers/help_controller.rb -text
+app/controllers/job_task_controller.rb -text
 app/controllers/note_controller.rb -text
 app/controllers/pool_controller.rb -text
 app/controllers/post_controller.rb -text
@@ -25,6 +26,8 @@ app/controllers/tag_implication_controller.rb -text
 app/controllers/user_controller.rb -text
 app/controllers/user_record_controller.rb -text
 app/controllers/wiki_controller.rb -text
+app/daemons/job_task_processor.rb -text
+app/daemons/job_task_processor_ctl.rb -text
 app/helpers/admin_helper.rb -text
 app/helpers/application_helper.rb -text
 app/helpers/artist_helper.rb -text
@@ -34,6 +37,7 @@ app/helpers/dmail_helper.rb -text
 app/helpers/favorite_helper.rb -text
 app/helpers/forum_helper.rb -text
 app/helpers/invite_helper.rb -text
+app/helpers/job_task_helper.rb -text
 app/helpers/note_helper.rb -text
 app/helpers/pool_helper.rb -text
 app/helpers/post_helper.rb -text
@@ -53,6 +57,7 @@ app/models/dmail.rb -text
 app/models/favorite.rb -text
 app/models/flagged_post_detail.rb -text
 app/models/forum_post.rb -text
+app/models/job_task.rb -text
 app/models/note.rb -text
 app/models/note_version.rb -text
 app/models/pool.rb -text
@@ -149,6 +154,7 @@ app/views/help/trac.html.erb -text
 app/views/help/users.html.erb -text
 app/views/help/voting.html.erb -text
 app/views/help/wiki.html.erb -text
+app/views/job_task/index.html.erb -text
 app/views/layouts/bare.html.erb -text
 app/views/layouts/default.html.erb -text
 app/views/note/_footer.html.erb -text
@@ -355,6 +361,7 @@ db/migrate/088_add_approver_id_to_posts.rb -text
 db/migrate/089_add_index_on_post_source.rb -text
 db/migrate/090_add_rating_to_tag_history.rb -text
 db/migrate/091_migrate_users_to_contributor.rb -text
+db/migrate/092_create_job_tasks.rb -text
 db/postgres.sql -text
 lib/asset_cache.rb -text
 lib/cache.rb -text
@@ -382,9 +389,6 @@ lib/memcache_util_store.rb -text
 lib/nagato.rb -text
 lib/query_parser.rb -text
 lib/report.rb -text
-lib/tasks/blacklisted_tags.rake -text
-lib/tasks/fix_blocked_users.rake -text
-lib/tasks/fix_pool_ordering.rake -text
 lib/tasks/maint.rake -text
 lib/tasks/make_sample_images.rake -text
 public/404.html -text
@@ -392,6 +396,7 @@ public/500.html -text
 public/503.html -text
 public/data/preview/deleted.png -text
 public/data/preview/download.png -text
+public/deleted-preview.png -text
 public/dispatch.cgi -text
 public/dispatch.fcgi -text
 public/dispatch.rb -text
@@ -488,6 +493,7 @@ test/functional/comment_controller_test.rb -text
 test/functional/dmail_controller_test.rb -text
 test/functional/favorite_controller_test.rb -text
 test/functional/forum_controller_test.rb -text
+test/functional/job_task_controller_test.rb -text
 test/functional/note_controller_test.rb -text
 test/functional/pool_controller_test.rb -text
 test/functional/post_controller_test.rb -text
@@ -520,6 +526,7 @@ test/unit/dmail_test.rb -text
 test/unit/favorite_test.rb -text
 test/unit/flagged_post_detail_test.rb -text
 test/unit/forum_post_test.rb -text
+test/unit/job_task_test.rb -text
 test/unit/note_test.rb -text
 test/unit/pool_test.rb -text
 test/unit/post_tag_history_test.rb -text
