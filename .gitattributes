@@ -55,6 +55,7 @@ app/models/ban.rb -text
 app/models/comment.rb -text
 app/models/dmail.rb -text
 app/models/favorite.rb -text
+app/models/favorite_tag.rb -text
 app/models/flagged_post_detail.rb -text
 app/models/forum_post.rb -text
 app/models/job_task.rb -text
@@ -366,6 +367,9 @@ db/migrate/089_add_index_on_post_source.rb -text
 db/migrate/090_add_rating_to_tag_history.rb -text
 db/migrate/091_migrate_users_to_contributor.rb -text
 db/migrate/092_create_job_tasks.rb -text
+db/migrate/093_change_type_of_data_in_job_tasks.rb -text
+db/migrate/094_favorite_tags.rb -text
+db/migrate/095_add_repeat_count_to_job_tasks.rb -text
 db/postgres.sql -text
 lib/asset_cache.rb -text
 lib/cache.rb -text
@@ -388,7 +392,6 @@ lib/danbooru_image_resizer/extconf.rb -text
 lib/danbooru_image_resizer/jpeglib-extern.h -text
 lib/download.rb -text
 lib/html_4_tags.rb -text
-lib/login_system.rb -text
 lib/memcache_util_store.rb -text
 lib/nagato.rb -text
 lib/query_parser.rb -text
@@ -457,6 +460,7 @@ script/breakpointer -text
 script/build_application_js -text
 script/console -text
 script/console_sandbox -text
+script/dbconsole -text
 script/destroy -text
 script/donmai/README -text
 script/donmai/backup_db -text
@@ -481,6 +485,7 @@ script/donmai/upbooru -text
 script/generate -text
 script/performance/benchmarker -text
 script/performance/profiler -text
+script/performance/request -text
 script/plugin -text
 script/process/inspector -text
 script/process/reaper -text
@@ -531,6 +536,7 @@ test/unit/artist_url_test.rb -text
 test/unit/ban_test.rb -text
 test/unit/comment_test.rb -text
 test/unit/dmail_test.rb -text
+test/unit/favorite_tag_test.rb -text
 test/unit/favorite_test.rb -text
 test/unit/flagged_post_detail_test.rb -text
 test/unit/forum_post_test.rb -text
