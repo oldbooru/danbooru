@@ -119,6 +119,7 @@ app/views/dmail/_footer.html.erb -text
 app/views/dmail/_message.html.erb -text
 app/views/dmail/compose.html.erb -text
 app/views/dmail/inbox.html.erb -text
+app/views/dmail/mark_all_read.html.erb -text
 app/views/dmail/show.html.erb -text
 app/views/dmail/show_previous_messages.html.erb -text
 app/views/forum/_post.html.erb -text
