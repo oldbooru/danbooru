@@ -375,6 +375,7 @@ db/migrate/092_create_job_tasks.rb -text
 db/migrate/093_change_type_of_data_in_job_tasks.rb -text
 db/migrate/094_favorite_tags.rb -text
 db/migrate/095_add_repeat_count_to_job_tasks.rb -text
+db/migrate/096_create_advertisements.rb -text
 db/postgres.sql -text
 lib/asset_cache.rb -text
 lib/cache.rb -text
