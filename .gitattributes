@@ -107,6 +107,7 @@ app/views/admin/reset_password.html.erb -text
 app/views/advertisement/show_stats.html.erb -text
 app/views/artist/_footer.html.erb -text
 app/views/artist/create.html.erb -text
+app/views/artist/destroy.html.erb -text
 app/views/artist/destroy.js.rjs -text
 app/views/artist/index.html.erb -text
 app/views/artist/show.html.erb -text
