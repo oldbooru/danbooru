@@ -378,6 +378,7 @@ db/migrate/094_favorite_tags.rb -text
 db/migrate/095_add_repeat_count_to_job_tasks.rb -text
 db/migrate/096_create_advertisements.rb -text
 db/migrate/20080927145957_make_wiki_titles_unique.rb -text
+db/migrate/20081024223856_add_old_level_to_bans.rb -text
 db/postgres.sql -text
 lib/asset_cache.rb -text
 lib/cache.rb -text
@@ -539,6 +540,7 @@ test/mocks/test/test7.jpg -text
 test/mocks/test/test8.jpg -text
 test/mocks/test/test9.jpg -text
 test/test_helper.rb -text
+test/unit/advertisement_test.rb -text
 test/unit/application_test.rb -text
 test/unit/artist_test.rb -text
 test/unit/artist_url_test.rb -text
