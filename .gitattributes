@@ -130,6 +130,7 @@ app/views/dmail/show_previous_messages.html.erb -text
 app/views/forum/_post.html.erb -text
 app/views/forum/edit.html.erb -text
 app/views/forum/index.html.erb -text
+app/views/forum/new.html.erb -text
 app/views/forum/search.html.erb -text
 app/views/forum/show.html.erb -text
 app/views/help/about.html.erb -text
