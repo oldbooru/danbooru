@@ -139,6 +139,7 @@ app/views/help/artists.html.erb -text
 app/views/help/bookmarklet.html.erb -text
 app/views/help/cheatsheet.html.erb -text
 app/views/help/comments.html.erb -text
+app/views/help/dtext.html.erb -text
 app/views/help/extension.html.erb -text
 app/views/help/faq.html.erb -text
 app/views/help/favorites.html.erb -text
@@ -401,6 +402,7 @@ lib/danbooru_image_resizer/danbooru_image_resizer.so -text
 lib/danbooru_image_resizer/extconf.rb -text
 lib/danbooru_image_resizer/jpeglib-extern.h -text
 lib/download.rb -text
+lib/dtext.rb -text
 lib/html_4_tags.rb -text
 lib/memcache_util_store.rb -text
 lib/nagato.rb -text
@@ -549,6 +551,7 @@ test/unit/artist_url_test.rb -text
 test/unit/ban_test.rb -text
 test/unit/comment_test.rb -text
 test/unit/dmail_test.rb -text
+test/unit/dtext_test.rb -text
 test/unit/favorite_tag_test.rb -text
 test/unit/favorite_test.rb -text
 test/unit/flagged_post_detail_test.rb -text
