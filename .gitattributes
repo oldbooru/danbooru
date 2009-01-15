@@ -409,6 +409,7 @@ lib/memcache_util_store.rb -text
 lib/nagato.rb -text
 lib/query_parser.rb -text
 lib/report.rb -text
+lib/tasks/fix_dtext.rake -text
 lib/tasks/job_restart.rake -text
 lib/tasks/job_start.rake -text
 lib/tasks/job_stop.rake -text
