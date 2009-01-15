@@ -191,6 +191,7 @@ app/views/post/_tags.html.erb -text
 app/views/post/atom.html.erb -text
 app/views/post/delete.html.erb -text
 app/views/post/deleted_index.html.erb -text
+app/views/post/error.html.erb -text
 app/views/post/favorites.html.erb -text
 app/views/post/index.html.erb -text
 app/views/post/index.xml.erb -text
