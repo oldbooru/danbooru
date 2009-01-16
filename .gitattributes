@@ -12,6 +12,7 @@ app/controllers/artist_controller.rb -text
 app/controllers/comment_controller.rb -text
 app/controllers/dmail_controller.rb -text
 app/controllers/favorite_controller.rb -text
+app/controllers/favorite_tag_controller.rb -text
 app/controllers/forum_controller.rb -text
 app/controllers/help_controller.rb -text
 app/controllers/job_task_controller.rb -text
@@ -127,6 +128,11 @@ app/views/dmail/inbox.html.erb -text
 app/views/dmail/mark_all_read.html.erb -text
 app/views/dmail/show.html.erb -text
 app/views/dmail/show_previous_messages.html.erb -text
+app/views/favorite_tag/_listing.html.erb -text
+app/views/favorite_tag/_listing_row.html.erb -text
+app/views/favorite_tag/create.js.rjs -text
+app/views/favorite_tag/destroy.js.rjs -text
+app/views/favorite_tag/index.html.erb -text
 app/views/forum/_post.html.erb -text
 app/views/forum/edit.html.erb -text
 app/views/forum/index.html.erb -text
@@ -382,8 +388,8 @@ db/migrate/095_add_repeat_count_to_job_tasks.rb -text
 db/migrate/096_create_advertisements.rb -text
 db/migrate/20080927145957_make_wiki_titles_unique.rb -text
 db/migrate/20081024223856_add_old_level_to_bans.rb -text
+db/migrate/20090115234541_add_name_to_favorite_tags.rb -text
 db/postgres.sql -text
-lib/asset_cache.rb -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/GIFReader.cpp -text
 lib/danbooru_image_resizer/GIFReader.h -text
@@ -410,6 +416,7 @@ lib/nagato.rb -text
 lib/query_parser.rb -text
 lib/report.rb -text
 lib/tasks/fix_dtext.rake -text
+lib/tasks/fix_favtags.rake -text
 lib/tasks/job_restart.rake -text
 lib/tasks/job_start.rake -text
 lib/tasks/job_stop.rake -text
@@ -511,6 +518,7 @@ script/runner -text
 script/server -text
 script/spin -text
 test/fixtures/artists.yml -text
+test/fixtures/favorite_tags.yml -text
 test/fixtures/posts.yml -text
 test/fixtures/table_data.yml -text
 test/fixtures/tags.yml -text
