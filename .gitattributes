@@ -119,6 +119,7 @@ app/views/comment/_footer.html.erb -text
 app/views/comment/edit.html.erb -text
 app/views/comment/index.html.erb -text
 app/views/comment/moderate.html.erb -text
+app/views/comment/search.html.erb -text
 app/views/comment/show.html.erb -text
 app/views/dmail/_compose.html.erb -text
 app/views/dmail/_footer.html.erb -text
@@ -389,6 +390,7 @@ db/migrate/096_create_advertisements.rb -text
 db/migrate/20080927145957_make_wiki_titles_unique.rb -text
 db/migrate/20081024223856_add_old_level_to_bans.rb -text
 db/migrate/20090115234541_add_name_to_favorite_tags.rb -text
+db/migrate/20090116232357_add_full_text_on_comments.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/GIFReader.cpp -text
