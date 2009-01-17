@@ -170,8 +170,9 @@ app/views/help/trac.html.erb -text
 app/views/help/users.html.erb -text
 app/views/help/voting.html.erb -text
 app/views/help/wiki.html.erb -text
+app/views/job_task/destroy.html.erb -text
 app/views/job_task/index.html.erb -text
-app/views/job_task/retry.html.erb -text
+app/views/job_task/restart.html.erb -text
 app/views/job_task/show.html.erb -text
 app/views/layouts/bare.html.erb -text
 app/views/layouts/default.html.erb -text
