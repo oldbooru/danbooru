@@ -223,9 +223,7 @@ app/views/post/show_partials/_status_notices.html.erb -text
 app/views/post/upload.html.erb -text
 app/views/post_tag_history/index.html.erb -text
 app/views/post_tag_history/revert.html.erb -text
-app/views/report/note_changes.html.erb -text
-app/views/report/tag_changes.html.erb -text
-app/views/report/wiki_changes.html.erb -text
+app/views/report/common.html.erb -text
 app/views/report_mailer/moderator_report.html.erb -text
 app/views/static/500.html.erb -text
 app/views/static/index.html.erb -text
