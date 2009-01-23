@@ -12,7 +12,6 @@ app/controllers/artist_controller.rb -text
 app/controllers/comment_controller.rb -text
 app/controllers/dmail_controller.rb -text
 app/controllers/favorite_controller.rb -text
-app/controllers/favorite_tag_controller.rb -text
 app/controllers/forum_controller.rb -text
 app/controllers/help_controller.rb -text
 app/controllers/job_task_controller.rb -text
@@ -25,6 +24,7 @@ app/controllers/static_controller.rb -text
 app/controllers/tag_alias_controller.rb -text
 app/controllers/tag_controller.rb -text
 app/controllers/tag_implication_controller.rb -text
+app/controllers/tag_subscription_controller.rb -text
 app/controllers/user_controller.rb -text
 app/controllers/user_record_controller.rb -text
 app/controllers/wiki_controller.rb -text
@@ -50,6 +50,7 @@ app/helpers/static_helper.rb -text
 app/helpers/tag_alias_helper.rb -text
 app/helpers/tag_helper.rb -text
 app/helpers/tag_implication_helper.rb -text
+app/helpers/tag_subscription_helper.rb -text
 app/helpers/user_helper.rb -text
 app/helpers/wiki_helper.rb -text
 app/models/advertisement.rb -text
@@ -59,7 +60,6 @@ app/models/ban.rb -text
 app/models/comment.rb -text
 app/models/dmail.rb -text
 app/models/favorite.rb -text
-app/models/favorite_tag.rb -text
 app/models/flagged_post_detail.rb -text
 app/models/forum_post.rb -text
 app/models/job_task.rb -text
@@ -96,6 +96,7 @@ app/models/tag/related_tag_methods.rb -text
 app/models/tag/type_methods.rb -text
 app/models/tag_alias.rb -text
 app/models/tag_implication.rb -text
+app/models/tag_subscription.rb -text
 app/models/user.rb -text
 app/models/user_blacklisted_tag.rb -text
 app/models/user_mailer.rb -text
@@ -129,11 +130,6 @@ app/views/dmail/inbox.html.erb -text
 app/views/dmail/mark_all_read.html.erb -text
 app/views/dmail/show.html.erb -text
 app/views/dmail/show_previous_messages.html.erb -text
-app/views/favorite_tag/_listing.html.erb -text
-app/views/favorite_tag/_listing_row.html.erb -text
-app/views/favorite_tag/create.js.rjs -text
-app/views/favorite_tag/destroy.js.rjs -text
-app/views/favorite_tag/index.html.erb -text
 app/views/forum/_post.html.erb -text
 app/views/forum/edit.html.erb -text
 app/views/forum/index.html.erb -text
@@ -241,6 +237,12 @@ app/views/tag/popular_by_month.html.erb -text
 app/views/tag/popular_by_week.html.erb -text
 app/views/tag_alias/index.html.erb -text
 app/views/tag_implication/index.html.erb -text
+app/views/tag_subscription/_listing.html.erb -text
+app/views/tag_subscription/_listing_row.html.erb -text
+app/views/tag_subscription/_user_listing.html.erb -text
+app/views/tag_subscription/create.js.rjs -text
+app/views/tag_subscription/destroy.js.rjs -text
+app/views/tag_subscription/index.html.erb -text
 app/views/user/_footer.html.erb -text
 app/views/user/block.html.erb -text
 app/views/user/change_password.html.erb -text
@@ -390,6 +392,7 @@ db/migrate/20080927145957_make_wiki_titles_unique.rb -text
 db/migrate/20081024223856_add_old_level_to_bans.rb -text
 db/migrate/20090115234541_add_name_to_favorite_tags.rb -text
 db/migrate/20090116232357_add_full_text_on_comments.rb -text
+db/migrate/20090123212834_add_visible_on_profile_to_tag_subscriptions.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/GIFReader.cpp -text
@@ -562,7 +565,6 @@ test/unit/ban_test.rb -text
 test/unit/comment_test.rb -text
 test/unit/dmail_test.rb -text
 test/unit/dtext_test.rb -text
-test/unit/favorite_tag_test.rb -text
 test/unit/favorite_test.rb -text
 test/unit/flagged_post_detail_test.rb -text
 test/unit/forum_post_test.rb -text
@@ -573,6 +575,7 @@ test/unit/post_tag_history_test.rb -text
 test/unit/post_test.rb -text
 test/unit/tag_alias_test.rb -text
 test/unit/tag_implication_test.rb -text
+test/unit/tag_subscription_test.rb -text
 test/unit/tag_test.rb -text
 test/unit/user_mailer_test.rb -text
 test/unit/user_record_test.rb -text
