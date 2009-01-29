@@ -96,6 +96,7 @@ app/models/tag/related_tag_methods.rb -text
 app/models/tag/type_methods.rb -text
 app/models/tag_alias.rb -text
 app/models/tag_implication.rb -text
+app/models/tag_proxy.rb -text
 app/models/tag_subscription.rb -text
 app/models/user.rb -text
 app/models/user_blacklisted_tag.rb -text
@@ -191,7 +192,6 @@ app/views/pool/update.html.erb -text
 app/views/post/_footer.html.erb -text
 app/views/post/_posts.html.erb -text
 app/views/post/_search.html.erb -text
-app/views/post/_tags.html.erb -text
 app/views/post/atom.html.erb -text
 app/views/post/delete.html.erb -text
 app/views/post/deleted_index.html.erb -text
@@ -542,6 +542,7 @@ test/functional/report_controller_test.rb -text
 test/functional/tag_alias_controller_test.rb -text
 test/functional/tag_controller_test.rb -text
 test/functional/tag_implication_controller_test.rb -text
+test/functional/tag_subscription_controller_test.rb -text
 test/functional/user_controller_test.rb -text
 test/functional/user_record_controller_test.rb -text
 test/functional/wiki_controller_test.rb -text
