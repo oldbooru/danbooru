@@ -395,7 +395,6 @@ db/migrate/20090116232357_add_full_text_on_comments.rb -text
 db/migrate/20090123212834_add_visible_on_profile_to_tag_subscriptions.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
-lib/daemons_extension.rb -text
 lib/danbooru_image_resizer/GIFReader.cpp -text
 lib/danbooru_image_resizer/GIFReader.h -text
 lib/danbooru_image_resizer/JPEGReader.cpp -text
