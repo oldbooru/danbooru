@@ -162,6 +162,7 @@ app/views/help/start.html.erb -text
 app/views/help/tag_aliases.html.erb -text
 app/views/help/tag_implications.html.erb -text
 app/views/help/tag_scripts.html.erb -text
+app/views/help/tag_subscriptions.html.erb -text
 app/views/help/tags.html.erb -text
 app/views/help/trac.html.erb -text
 app/views/help/users.html.erb -text
