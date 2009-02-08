@@ -394,6 +394,7 @@ db/migrate/20081024223856_add_old_level_to_bans.rb -text
 db/migrate/20090115234541_add_name_to_favorite_tags.rb -text
 db/migrate/20090116232357_add_full_text_on_comments.rb -text
 db/migrate/20090123212834_add_visible_on_profile_to_tag_subscriptions.rb -text
+db/migrate/20090208201752_add_full_text_index_on_post_tags.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/GIFReader.cpp -text
