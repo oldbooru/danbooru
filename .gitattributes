@@ -425,6 +425,7 @@ lib/query_parser.rb -text
 lib/report.rb -text
 lib/tasks/fix_dtext.rake -text
 lib/tasks/fix_favtags.rake -text
+lib/tasks/fix_pool_post_counts.rake -text
 lib/tasks/job_restart.rake -text
 lib/tasks/job_start.rake -text
 lib/tasks/job_stop.rake -text
