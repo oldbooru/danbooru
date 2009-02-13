@@ -504,9 +504,7 @@ script/donmai/deploy -text
 script/donmai/downbooru -text
 script/donmai/dump_related_tags -text
 script/donmai/dump_tags -text
-script/donmai/fix_artist_urls -text
 script/donmai/fix_tags -text
-script/donmai/generate_preview -text
 script/donmai/process_logs -text
 script/donmai/prune_backup_dbs -text
 script/donmai/prune_old_job_tasks -text
