@@ -63,6 +63,7 @@ app/models/favorite.rb -text
 app/models/flagged_post_detail.rb -text
 app/models/forum_post.rb -text
 app/models/job_task.rb -text
+app/models/mod_queue_post.rb -text
 app/models/note.rb -text
 app/models/note_version.rb -text
 app/models/pool.rb -text
@@ -79,6 +80,7 @@ app/models/post/image_store/local_flat_with_amazon_s3_backup.rb -text
 app/models/post/image_store/local_hierarchy.rb -text
 app/models/post/image_store/remote_hierarchy.rb -text
 app/models/post/image_store_methods.rb -text
+app/models/post/moderation_methods.rb -text
 app/models/post/parent_methods.rb -text
 app/models/post/rating_methods.rb -text
 app/models/post/sql_methods.rb -text
@@ -397,6 +399,7 @@ db/migrate/20090115234541_add_name_to_favorite_tags.rb -text
 db/migrate/20090116232357_add_full_text_on_comments.rb -text
 db/migrate/20090123212834_add_visible_on_profile_to_tag_subscriptions.rb -text
 db/migrate/20090208201752_add_full_text_index_on_post_tags.rb -text
+db/migrate/20090213162021_create_mod_queue_posts.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/danbooru_image_resizer/GIFReader.cpp -text
@@ -528,6 +531,7 @@ script/server -text
 script/spin -text
 test/fixtures/artists.yml -text
 test/fixtures/favorite_tags.yml -text
+test/fixtures/mod_queue_posts.yml -text
 test/fixtures/posts.yml -text
 test/fixtures/table_data.yml -text
 test/fixtures/tags.yml -text
@@ -575,6 +579,7 @@ test/unit/favorite_test.rb -text
 test/unit/flagged_post_detail_test.rb -text
 test/unit/forum_post_test.rb -text
 test/unit/job_task_test.rb -text
+test/unit/mod_queue_post_test.rb -text
 test/unit/note_test.rb -text
 test/unit/pool_test.rb -text
 test/unit/post_tag_history_test.rb -text
