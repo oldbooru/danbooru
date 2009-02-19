@@ -150,6 +150,7 @@ app/views/help/extension.html.erb -text
 app/views/help/faq.html.erb -text
 app/views/help/favorites.html.erb -text
 app/views/help/forum.html.erb -text
+app/views/help/hidden_tags.html.erb -text
 app/views/help/image_sampling.html.erb -text
 app/views/help/index.html.erb -text
 app/views/help/irc.html.erb -text
