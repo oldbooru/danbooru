@@ -270,6 +270,7 @@ app/views/user_record/_footer.html.erb -text
 app/views/user_record/create.html.erb -text
 app/views/user_record/destroy.html.erb -text
 app/views/user_record/index.html.erb -text
+app/views/wiki/_edit_buttons.html.erb -text
 app/views/wiki/_footer.html.erb -text
 app/views/wiki/_recently_revised.html.erb -text
 app/views/wiki/_sidebar.html.erb -text
