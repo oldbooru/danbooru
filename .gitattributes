@@ -128,6 +128,7 @@ app/views/comment/show.html.erb -text
 app/views/dmail/_compose.html.erb -text
 app/views/dmail/_footer.html.erb -text
 app/views/dmail/_message.html.erb -text
+app/views/dmail/auto_complete_for_dmail_to_name.html.erb -text
 app/views/dmail/compose.html.erb -text
 app/views/dmail/inbox.html.erb -text
 app/views/dmail/mark_all_read.html.erb -text
