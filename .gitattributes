@@ -251,6 +251,7 @@ app/views/tag_subscription/create.js.rjs -text
 app/views/tag_subscription/destroy.js.rjs -text
 app/views/tag_subscription/index.html.erb -text
 app/views/user/_footer.html.erb -text
+app/views/user/auto_complete_for_member_name.html.erb -text
 app/views/user/block.html.erb -text
 app/views/user/change_password.html.erb -text
 app/views/user/edit.html.erb -text
