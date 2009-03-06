@@ -285,7 +285,6 @@ app/views/wiki/recent_changes.html.erb -text
 app/views/wiki/rename.html.erb -text
 app/views/wiki/show.html.erb -text
 config/boot.rb -text
-config/core_extensions.rb -text
 config/database.yml.example -text
 config/default_config.rb -text
 config/environment.rb -text
@@ -295,10 +294,8 @@ config/environments/test.rb -text
 config/initializers/000_load_config.rb -text
 config/initializers/001_action_mailer.rb -text
 config/initializers/002_caching.rb -text
-config/initializers/003_clear_js_cache.rb -text
+config/initializers/003_build_application_js.rb -text
 config/initializers/004_exception_notifier.rb -text
-config/initializers/005_mime_types.rb -text
-config/initializers/006_check_javascripts_writable.rb -text
 config/local_config.rb.example -text
 config/routes.rb -text
 db/migrate/001_add_post_links.rb -text
@@ -406,6 +403,7 @@ db/migrate/20090208201752_add_full_text_index_on_post_tags.rb -text
 db/migrate/20090213162021_create_mod_queue_posts.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
+lib/core_extensions.rb -text
 lib/danbooru_image_resizer/GIFReader.cpp -text
 lib/danbooru_image_resizer/GIFReader.h -text
 lib/danbooru_image_resizer/JPEGReader.cpp -text
@@ -426,7 +424,6 @@ lib/danbooru_image_resizer/jpeglib-extern.h -text
 lib/download.rb -text
 lib/dtext.rb -text
 lib/html_4_tags.rb -text
-lib/memcache_util_store.rb -text
 lib/nagato.rb -text
 lib/query_parser.rb -text
 lib/report.rb -text
