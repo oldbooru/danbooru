@@ -54,6 +54,7 @@ app/helpers/tag_subscription_helper.rb -text
 app/helpers/user_helper.rb -text
 app/helpers/wiki_helper.rb -text
 app/models/advertisement.rb -text
+app/models/advertisement_hit.rb -text
 app/models/artist.rb -text
 app/models/artist_url.rb -text
 app/models/ban.rb -text
@@ -109,7 +110,10 @@ app/models/wiki_page_version.rb -text
 app/views/admin/edit_user.html.erb -text
 app/views/admin/index.html.erb -text
 app/views/admin/reset_password.html.erb -text
-app/views/advertisement/show_stats.html.erb -text
+app/views/advertisement/_form.html.erb -text
+app/views/advertisement/edit.html.erb -text
+app/views/advertisement/index.html.erb -text
+app/views/advertisement/new.html.erb -text
 app/views/artist/_footer.html.erb -text
 app/views/artist/create.html.erb -text
 app/views/artist/destroy.html.erb -text
