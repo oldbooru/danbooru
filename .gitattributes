@@ -16,6 +16,7 @@ app/controllers/forum_controller.rb -text
 app/controllers/help_controller.rb -text
 app/controllers/job_task_controller.rb -text
 app/controllers/note_controller.rb -text
+app/controllers/pixiv_controller.rb -text
 app/controllers/pool_controller.rb -text
 app/controllers/post_controller.rb -text
 app/controllers/post_tag_history_controller.rb -text
@@ -42,6 +43,7 @@ app/helpers/forum_helper.rb -text
 app/helpers/invite_helper.rb -text
 app/helpers/job_task_helper.rb -text
 app/helpers/note_helper.rb -text
+app/helpers/pixiv_helper.rb -text
 app/helpers/pool_helper.rb -text
 app/helpers/post_helper.rb -text
 app/helpers/post_tag_history_helper.rb -text
@@ -67,6 +69,7 @@ app/models/job_task.rb -text
 app/models/mod_queue_post.rb -text
 app/models/note.rb -text
 app/models/note_version.rb -text
+app/models/pixiv_proxy.rb -text
 app/models/pool.rb -text
 app/models/post.rb -text
 app/models/post/api_methods.rb -text
@@ -187,6 +190,11 @@ app/views/note/_note.html.erb -text
 app/views/note/history.html.erb -text
 app/views/note/index.html.erb -text
 app/views/note/search.html.erb -text
+app/views/pixiv/_header.html.erb -text
+app/views/pixiv/index.html.erb -text
+app/views/pixiv/listing.html.erb -text
+app/views/pixiv/profile.html.erb -text
+app/views/pixiv/single.html.erb -text
 app/views/pool/_footer.html.erb -text
 app/views/pool/add_post.html.erb -text
 app/views/pool/create.html.erb -text
@@ -406,6 +414,7 @@ db/migrate/20090123212834_add_visible_on_profile_to_tag_subscriptions.rb -text
 db/migrate/20090208201752_add_full_text_index_on_post_tags.rb -text
 db/migrate/20090213162021_create_mod_queue_posts.rb -text
 db/migrate/20090311231530_add_work_safe_field_to_ads.rb -text
+db/migrate/20090313191752_create_pixiv_proxies.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
@@ -539,6 +548,7 @@ script/spin -text
 test/fixtures/artists.yml -text
 test/fixtures/favorite_tags.yml -text
 test/fixtures/mod_queue_posts.yml -text
+test/fixtures/pixiv_proxies.yml -text
 test/fixtures/posts.yml -text
 test/fixtures/table_data.yml -text
 test/fixtures/tags.yml -text
@@ -551,6 +561,7 @@ test/functional/favorite_controller_test.rb -text
 test/functional/forum_controller_test.rb -text
 test/functional/job_task_controller_test.rb -text
 test/functional/note_controller_test.rb -text
+test/functional/pixiv_controller_test.rb -text
 test/functional/pool_controller_test.rb -text
 test/functional/post_controller_test.rb -text
 test/functional/post_tag_history_controller_test.rb -text
@@ -588,6 +599,7 @@ test/unit/forum_post_test.rb -text
 test/unit/job_task_test.rb -text
 test/unit/mod_queue_post_test.rb -text
 test/unit/note_test.rb -text
+test/unit/pixiv_proxy_test.rb -text
 test/unit/pool_test.rb -text
 test/unit/post_tag_history_test.rb -text
 test/unit/post_test.rb -text
