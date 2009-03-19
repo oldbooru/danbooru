@@ -57,6 +57,7 @@ app/helpers/user_helper.rb -text
 app/helpers/wiki_helper.rb -text
 app/models/advertisement.rb -text
 app/models/advertisement_hit.rb -text
+app/models/anonymous_user.rb -text
 app/models/artist.rb -text
 app/models/artist_url.rb -text
 app/models/ban.rb -text
@@ -414,7 +415,6 @@ db/migrate/20090123212834_add_visible_on_profile_to_tag_subscriptions.rb -text
 db/migrate/20090208201752_add_full_text_index_on_post_tags.rb -text
 db/migrate/20090213162021_create_mod_queue_posts.rb -text
 db/migrate/20090311231530_add_work_safe_field_to_ads.rb -text
-db/migrate/20090313191752_create_pixiv_proxies.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
