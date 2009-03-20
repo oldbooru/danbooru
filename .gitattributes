@@ -663,6 +663,7 @@ vendor/plugins/kakasi-020928/MANIFEST -text
 vendor/plugins/kakasi-020928/README -text
 vendor/plugins/kakasi-020928/README.jp -text
 vendor/plugins/kakasi-020928/ext/extconf.rb -text
+vendor/plugins/kakasi-020928/ext/kakasi.c -text
 vendor/plugins/kakasi-020928/init.rb -text
 vendor/plugins/kakasi-020928/lib/kakasi.rb -text
 vendor/plugins/kakasi-020928/test/test.rb -text
