@@ -658,15 +658,6 @@ vendor/plugins/exception_notification/views/exception_notifier/_title.rhtml -tex
 vendor/plugins/exception_notification/views/exception_notifier/exception_notification.rhtml -text
 vendor/plugins/html5sanitizer/init.rb -text
 vendor/plugins/html5sanitizer/lib/html5sanitizer.rb -text
-vendor/plugins/kakasi-020928/ChangeLog -text
-vendor/plugins/kakasi-020928/MANIFEST -text
-vendor/plugins/kakasi-020928/README -text
-vendor/plugins/kakasi-020928/README.jp -text
-vendor/plugins/kakasi-020928/ext/extconf.rb -text
-vendor/plugins/kakasi-020928/ext/kakasi.c -text
-vendor/plugins/kakasi-020928/init.rb -text
-vendor/plugins/kakasi-020928/lib/kakasi.rb -text
-vendor/plugins/kakasi-020928/test/test.rb -text
 vendor/plugins/redhillonrails_core/CHANGELOG -text
 vendor/plugins/redhillonrails_core/MIT-LICENSE -text
 vendor/plugins/redhillonrails_core/README -text
