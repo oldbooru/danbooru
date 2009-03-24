@@ -191,9 +191,6 @@ app/views/note/_note.html.erb -text
 app/views/note/history.html.erb -text
 app/views/note/index.html.erb -text
 app/views/note/search.html.erb -text
-app/views/pixiv/_header.html.erb -text
-app/views/pixiv/index.html.erb -text
-app/views/pixiv/listing.html.erb -text
 app/views/pixiv/profile.html.erb -text
 app/views/pixiv/single.html.erb -text
 app/views/pool/_footer.html.erb -text
