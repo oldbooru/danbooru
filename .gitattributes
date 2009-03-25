@@ -413,6 +413,7 @@ db/migrate/20090123212834_add_visible_on_profile_to_tag_subscriptions.rb -text
 db/migrate/20090208201752_add_full_text_index_on_post_tags.rb -text
 db/migrate/20090213162021_create_mod_queue_posts.rb -text
 db/migrate/20090311231530_add_work_safe_field_to_ads.rb -text
+db/migrate/20090325201544_clear_related_tag_cache.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
