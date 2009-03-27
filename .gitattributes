@@ -307,6 +307,7 @@ config/initializers/001_action_mailer.rb -text
 config/initializers/002_caching.rb -text
 config/initializers/003_build_application_js.rb -text
 config/initializers/004_exception_notifier.rb -text
+config/initializers/005_srand.rb -text
 config/local_config.rb.example -text
 config/routes.rb -text
 db/migrate/001_add_post_links.rb -text
