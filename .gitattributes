@@ -211,7 +211,6 @@ app/views/post/atom.html.erb -text
 app/views/post/delete.html.erb -text
 app/views/post/deleted_index.html.erb -text
 app/views/post/error.html.erb -text
-app/views/post/favorites.html.erb -text
 app/views/post/index.html.erb -text
 app/views/post/index.xml.erb -text
 app/views/post/moderate.html.erb -text
@@ -416,6 +415,7 @@ db/migrate/20090208201752_add_full_text_index_on_post_tags.rb -text
 db/migrate/20090213162021_create_mod_queue_posts.rb -text
 db/migrate/20090311231530_add_work_safe_field_to_ads.rb -text
 db/migrate/20090325201544_clear_related_tag_cache.rb -text
+db/migrate/20090413232155_add_base_upload_limit_to_users.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
