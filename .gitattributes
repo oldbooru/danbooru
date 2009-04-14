@@ -265,11 +265,13 @@ app/views/user/auto_complete_for_member_name.html.erb -text
 app/views/user/block.html.erb -text
 app/views/user/change_password.html.erb -text
 app/views/user/edit.html.erb -text
+app/views/user/edit_upload_limit.html.erb -text
 app/views/user/home.html.erb -text
 app/views/user/index.html.erb -text
 app/views/user/invites.html.erb -text
 app/views/user/login.html.erb -text
 app/views/user/logout.html.erb -text
+app/views/user/random.html.erb -text
 app/views/user/resend_confirmation.html.erb -text
 app/views/user/reset_password.html.erb -text
 app/views/user/show.html.erb -text
