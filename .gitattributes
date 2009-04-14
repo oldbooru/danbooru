@@ -418,6 +418,7 @@ db/migrate/20090123212834_add_visible_on_profile_to_tag_subscriptions.rb -text
 db/migrate/20090208201752_add_full_text_index_on_post_tags.rb -text
 db/migrate/20090213162021_create_mod_queue_posts.rb -text
 db/migrate/20090311231530_add_work_safe_field_to_ads.rb -text
+db/migrate/20090313191752_create_pixiv_proxies.rb -text
 db/migrate/20090325201544_clear_related_tag_cache.rb -text
 db/migrate/20090413232155_add_base_upload_limit_to_users.rb -text
 db/migrate/20090414194158_create_pool_updates.rb -text
@@ -444,6 +445,7 @@ lib/danbooru_image_resizer/jpeglib-extern.h -text
 lib/download.rb -text
 lib/dtext.rb -text
 lib/html_4_tags.rb -text
+lib/memcache_util_store.rb -text
 lib/nagato.rb -text
 lib/query_parser.rb -text
 lib/report.rb -text
