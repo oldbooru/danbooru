@@ -72,6 +72,7 @@ app/models/note.rb -text
 app/models/note_version.rb -text
 app/models/pixiv_proxy.rb -text
 app/models/pool.rb -text
+app/models/pool_update.rb -text
 app/models/post.rb -text
 app/models/post/api_methods.rb -text
 app/models/post/cache_methods.rb -text
@@ -197,6 +198,7 @@ app/views/pool/_footer.html.erb -text
 app/views/pool/add_post.html.erb -text
 app/views/pool/create.html.erb -text
 app/views/pool/destroy.html.erb -text
+app/views/pool/history.html.erb -text
 app/views/pool/import.html.erb -text
 app/views/pool/import.js.rjs -text
 app/views/pool/index.html.erb -text
@@ -418,6 +420,7 @@ db/migrate/20090213162021_create_mod_queue_posts.rb -text
 db/migrate/20090311231530_add_work_safe_field_to_ads.rb -text
 db/migrate/20090325201544_clear_related_tag_cache.rb -text
 db/migrate/20090413232155_add_base_upload_limit_to_users.rb -text
+db/migrate/20090414194158_create_pool_updates.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
