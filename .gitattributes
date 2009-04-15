@@ -94,6 +94,7 @@ app/models/post/status_methods.rb -text
 app/models/post/tag_methods.rb -text
 app/models/post/vote_methods.rb -text
 app/models/post_tag_history.rb -text
+app/models/post_vote.rb -text
 app/models/report_mailer.rb -text
 app/models/server_key.rb -text
 app/models/tag.rb -text
@@ -425,6 +426,9 @@ db/migrate/20090325201544_clear_related_tag_cache.rb -text
 db/migrate/20090413232155_add_base_upload_limit_to_users.rb -text
 db/migrate/20090414194158_create_pool_updates.rb -text
 db/migrate/20090415190409_add_cached_tags_to_users.rb -text
+db/migrate/20090415231149_reset_post_scores.rb -text
+db/migrate/20090415233201_create_post_votes.rb -text
+db/migrate/20090415233433_add_foreign_keys_to_pool_updates.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
