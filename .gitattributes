@@ -209,6 +209,7 @@ app/views/pool/update.html.erb -text
 app/views/post/_footer.html.erb -text
 app/views/post/_posts.html.erb -text
 app/views/post/_search.html.erb -text
+app/views/post/_tag_autocomplete.html.erb -text
 app/views/post/atom.html.erb -text
 app/views/post/delete.html.erb -text
 app/views/post/deleted_index.html.erb -text
@@ -265,6 +266,7 @@ app/views/tag_subscription/index.html.erb -text
 app/views/user/_footer.html.erb -text
 app/views/user/auto_complete_for_member_name.html.erb -text
 app/views/user/block.html.erb -text
+app/views/user/calculate_favorite_tags.html.erb -text
 app/views/user/change_password.html.erb -text
 app/views/user/edit.html.erb -text
 app/views/user/edit_upload_limit.html.erb -text
@@ -422,6 +424,7 @@ db/migrate/20090313191752_create_pixiv_proxies.rb -text
 db/migrate/20090325201544_clear_related_tag_cache.rb -text
 db/migrate/20090413232155_add_base_upload_limit_to_users.rb -text
 db/migrate/20090414194158_create_pool_updates.rb -text
+db/migrate/20090415190409_add_cached_tags_to_users.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
