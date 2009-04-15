@@ -539,6 +539,7 @@ script/donmai/fix_tags -text
 script/donmai/process_logs -text
 script/donmai/prune_backup_dbs -text
 script/donmai/prune_old_job_tasks -text
+script/donmai/prune_old_votes -text
 script/donmai/prune_unactivated_users -text
 script/donmai/prune_unapproved_posts -text
 script/donmai/restart -text
