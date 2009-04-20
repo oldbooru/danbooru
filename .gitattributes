@@ -560,6 +560,7 @@ script/profiler -text
 script/runner -text
 script/server -text
 script/spin -text
+test/fixtures/advertisements.csv -text
 test/fixtures/artists.yml -text
 test/fixtures/favorite_tags.yml -text
 test/fixtures/mod_queue_posts.yml -text
@@ -569,6 +570,7 @@ test/fixtures/table_data.yml -text
 test/fixtures/tags.yml -text
 test/fixtures/users.yml -text
 test/functional/admin_controller_test.rb -text
+test/functional/advertisement_controller_test.rb -text
 test/functional/artist_controller_test.rb -text
 test/functional/comment_controller_test.rb -text
 test/functional/dmail_controller_test.rb -text
