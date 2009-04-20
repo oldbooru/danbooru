@@ -427,6 +427,7 @@ db/migrate/20090415190409_add_cached_tags_to_users.rb -text
 db/migrate/20090415231149_reset_post_scores.rb -text
 db/migrate/20090415233201_create_post_votes.rb -text
 db/migrate/20090415233433_add_foreign_keys_to_pool_updates.rb -text
+db/migrate/20090417190214_add_score_to_post_votes.rb -text
 db/migrate/20090420182044_revert_enable_auto_complete_on_users.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
