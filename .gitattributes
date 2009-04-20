@@ -7,7 +7,7 @@
 /Rakefile -text
 app/controllers/admin_controller.rb -text
 app/controllers/advertisement_controller.rb -text
-app/controllers/application.rb -text
+app/controllers/application_controller.rb -text
 app/controllers/artist_controller.rb -text
 app/controllers/comment_controller.rb -text
 app/controllers/dmail_controller.rb -text
