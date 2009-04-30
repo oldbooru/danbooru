@@ -540,6 +540,7 @@ script/donmai/deploy -text
 script/donmai/downbooru -text
 script/donmai/dump_related_tags -text
 script/donmai/dump_tags -text
+script/donmai/fix_images -text
 script/donmai/fix_tags -text
 script/donmai/process_logs -text
 script/donmai/prune_backup_dbs -text
