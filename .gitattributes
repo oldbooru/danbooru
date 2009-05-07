@@ -105,7 +105,6 @@ app/models/tag/related_tag_methods.rb -text
 app/models/tag/type_methods.rb -text
 app/models/tag_alias.rb -text
 app/models/tag_implication.rb -text
-app/models/tag_proxy.rb -text
 app/models/tag_subscription.rb -text
 app/models/user.rb -text
 app/models/user_blacklisted_tag.rb -text
