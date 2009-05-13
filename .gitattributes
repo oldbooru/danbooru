@@ -265,7 +265,7 @@ app/views/tag_subscription/index.html.erb -text
 app/views/user/_footer.html.erb -text
 app/views/user/auto_complete_for_member_name.html.erb -text
 app/views/user/block.html.erb -text
-app/views/user/calculate_favorite_tags.html.erb -text
+app/views/user/calculate_uploaded_tags.html.erb -text
 app/views/user/change_password.html.erb -text
 app/views/user/edit.html.erb -text
 app/views/user/edit_upload_limit.html.erb -text
@@ -430,6 +430,7 @@ db/migrate/20090415233433_add_foreign_keys_to_pool_updates.rb -text
 db/migrate/20090417190214_add_score_to_post_votes.rb -text
 db/migrate/20090420182044_revert_enable_auto_complete_on_users.rb -text
 db/migrate/20090420223213_add_cascading_foreign_key_to_artist_urls.rb -text
+db/migrate/20090513212828_rename_favorite_tags.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
