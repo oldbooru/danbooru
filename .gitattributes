@@ -471,6 +471,7 @@ public/404.html -text
 public/500.html -text
 public/500_execution_expired.html -text
 public/500_invalid_byte_sequence.html -text
+public/503-bw.html -text
 public/503.html -text
 public/503_timeout.html -text
 public/data/preview/deleted.png -text
