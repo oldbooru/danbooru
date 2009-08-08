@@ -417,6 +417,7 @@ db/migrate/20081024223856_add_old_level_to_bans.rb -text
 db/migrate/20090115234541_add_name_to_favorite_tags.rb -text
 db/migrate/20090116232357_add_full_text_on_comments.rb -text
 db/migrate/20090123212834_add_visible_on_profile_to_tag_subscriptions.rb -text
+db/migrate/20090206235125_create_advertisement_hits.rb -text
 db/migrate/20090208201752_add_full_text_index_on_post_tags.rb -text
 db/migrate/20090213162021_create_mod_queue_posts.rb -text
 db/migrate/20090311231530_add_work_safe_field_to_ads.rb -text
@@ -432,6 +433,8 @@ db/migrate/20090417190214_add_score_to_post_votes.rb -text
 db/migrate/20090420182044_revert_enable_auto_complete_on_users.rb -text
 db/migrate/20090420223213_add_cascading_foreign_key_to_artist_urls.rb -text
 db/migrate/20090513212828_rename_favorite_tags.rb -text
+db/migrate/20090626224131_add_tag_counts_to_posts.rb -text
+db/migrate/20090731194244_add_file_size_to_posts.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
@@ -461,7 +464,9 @@ lib/query_parser.rb -text
 lib/report.rb -text
 lib/tasks/fix_dtext.rake -text
 lib/tasks/fix_favtags.rake -text
+lib/tasks/fix_file_sizes.rake -text
 lib/tasks/fix_pool_post_counts.rake -text
+lib/tasks/fix_typed_tag_counts.rake -text
 lib/tasks/job_restart.rake -text
 lib/tasks/job_start.rake -text
 lib/tasks/job_stop.rake -text
