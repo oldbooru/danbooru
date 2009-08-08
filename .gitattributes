@@ -432,6 +432,7 @@ db/migrate/20090417190214_add_score_to_post_votes.rb -text
 db/migrate/20090420182044_revert_enable_auto_complete_on_users.rb -text
 db/migrate/20090420223213_add_cascading_foreign_key_to_artist_urls.rb -text
 db/migrate/20090513212828_rename_favorite_tags.rb -text
+db/migrate/20090626224131_add_tag_counts_to_posts.rb -text
 db/migrate/20090731194244_add_file_size_to_posts.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
@@ -461,7 +462,9 @@ lib/query_parser.rb -text
 lib/report.rb -text
 lib/tasks/fix_dtext.rake -text
 lib/tasks/fix_favtags.rake -text
+lib/tasks/fix_file_sizes.rake -text
 lib/tasks/fix_pool_post_counts.rake -text
+lib/tasks/fix_typed_tag_counts.rake -text
 lib/tasks/job_restart.rake -text
 lib/tasks/job_start.rake -text
 lib/tasks/job_stop.rake -text
