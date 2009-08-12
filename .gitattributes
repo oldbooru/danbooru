@@ -203,6 +203,7 @@ app/views/pool/import.html.erb -text
 app/views/pool/import.js.rjs -text
 app/views/pool/index.html.erb -text
 app/views/pool/order.html.erb -text
+app/views/pool/revert.html.erb -text
 app/views/pool/select.html.erb -text
 app/views/pool/show.html.erb -text
 app/views/pool/update.html.erb -text
@@ -461,11 +462,6 @@ lib/html_4_tags.rb -text
 lib/nagato.rb -text
 lib/query_parser.rb -text
 lib/report.rb -text
-lib/tasks/fix_dtext.rake -text
-lib/tasks/fix_favtags.rake -text
-lib/tasks/fix_file_sizes.rake -text
-lib/tasks/fix_pool_post_counts.rake -text
-lib/tasks/fix_typed_tag_counts.rake -text
 lib/tasks/job_restart.rake -text
 lib/tasks/job_start.rake -text
 lib/tasks/job_stop.rake -text
@@ -557,6 +553,7 @@ script/donmai/restart -text
 script/donmai/rotate_logs -text
 script/donmai/send_moderator_report -text
 script/donmai/upbooru -text
+script/fix/001_pool_updates.rb -text
 script/generate -text
 script/performance/benchmarker -text
 script/performance/profiler -text
