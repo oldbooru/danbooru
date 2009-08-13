@@ -131,6 +131,7 @@ app/views/comment/_comments.html.erb -text
 app/views/comment/_footer.html.erb -text
 app/views/comment/edit.html.erb -text
 app/views/comment/index.html.erb -text
+app/views/comment/index_hidden.js.rjs -text
 app/views/comment/moderate.html.erb -text
 app/views/comment/search.html.erb -text
 app/views/comment/show.html.erb -text
