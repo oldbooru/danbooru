@@ -203,9 +203,11 @@ app/views/pool/import.html.erb -text
 app/views/pool/import.js.rjs -text
 app/views/pool/index.html.erb -text
 app/views/pool/order.html.erb -text
+app/views/pool/recent_changes.html.erb -text
 app/views/pool/revert.html.erb -text
 app/views/pool/select.html.erb -text
 app/views/pool/show.html.erb -text
+app/views/pool/show_historical.html.erb -text
 app/views/pool/update.html.erb -text
 app/views/post/_footer.html.erb -text
 app/views/post/_posts.html.erb -text
