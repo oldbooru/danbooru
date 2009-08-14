@@ -256,7 +256,6 @@ app/views/tag/mass_edit.html.erb -text
 app/views/tag/popular_by_day.html.erb -text
 app/views/tag/popular_by_month.html.erb -text
 app/views/tag/popular_by_week.html.erb -text
-app/views/tag/romakan_test.html.erb -text
 app/views/tag_alias/index.html.erb -text
 app/views/tag_alias/new.html.erb -text
 app/views/tag_implication/index.html.erb -text
