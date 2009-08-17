@@ -60,6 +60,7 @@ app/models/advertisement_hit.rb -text
 app/models/anonymous_user.rb -text
 app/models/artist.rb -text
 app/models/artist_url.rb -text
+app/models/artist_version.rb -text
 app/models/ban.rb -text
 app/models/comment.rb -text
 app/models/dmail.rb -text
@@ -123,7 +124,9 @@ app/views/artist/_footer.html.erb -text
 app/views/artist/create.html.erb -text
 app/views/artist/destroy.html.erb -text
 app/views/artist/destroy.js.rjs -text
+app/views/artist/history.html.erb -text
 app/views/artist/index.html.erb -text
+app/views/artist/recent_changes.html.erb -text
 app/views/artist/show.html.erb -text
 app/views/artist/update.html.erb -text
 app/views/comment/_comment.html.erb -text
@@ -439,6 +442,7 @@ db/migrate/20090420223213_add_cascading_foreign_key_to_artist_urls.rb -text
 db/migrate/20090513212828_rename_favorite_tags.rb -text
 db/migrate/20090626224131_add_tag_counts_to_posts.rb -text
 db/migrate/20090731194244_add_file_size_to_posts.rb -text
+db/migrate/20090814153842_create_artist_versions.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
