@@ -562,6 +562,7 @@ script/donmai/rotate_logs -text
 script/donmai/send_moderator_report -text
 script/donmai/upbooru -text
 script/fix/001_pool_updates.rb -text
+script/fix/002_create_s3_backup_job.rb -text
 script/generate -text
 script/performance/benchmarker -text
 script/performance/profiler -text
