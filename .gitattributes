@@ -442,6 +442,7 @@ db/migrate/20090513212828_rename_favorite_tags.rb -text
 db/migrate/20090626224131_add_tag_counts_to_posts.rb -text
 db/migrate/20090731194244_add_file_size_to_posts.rb -text
 db/migrate/20090814153842_create_artist_versions.rb -text
+db/migrate/20090911190142_update_advertisements.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
