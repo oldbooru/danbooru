@@ -443,6 +443,7 @@ db/migrate/20090513212828_rename_favorite_tags.rb -text
 db/migrate/20090626224131_add_tag_counts_to_posts.rb -text
 db/migrate/20090731194244_add_file_size_to_posts.rb -text
 db/migrate/20090814153842_create_artist_versions.rb -text
+db/migrate/20090911190142_update_advertisements.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
@@ -563,6 +564,7 @@ script/donmai/send_moderator_report -text
 script/donmai/upbooru -text
 script/fix/001_pool_updates.rb -text
 script/fix/002_create_s3_backup_job.rb -text
+script/fix/003_update_tag_counts.rb -text
 script/generate -text
 script/performance/benchmarker -text
 script/performance/profiler -text
