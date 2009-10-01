@@ -248,6 +248,7 @@ app/views/report_mailer/moderator_report.html.erb -text
 app/views/static/500.html.erb -text
 app/views/static/index.html.erb -text
 app/views/static/more.html.erb -text
+app/views/static/overloaded.html.erb -text
 app/views/static/terms_of_service.html.erb -text
 app/views/tag/_alpha_paginator.html.erb -text
 app/views/tag/_footer.html.erb -text
