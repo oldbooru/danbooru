@@ -445,6 +445,7 @@ db/migrate/20090731194244_add_file_size_to_posts.rb -text
 db/migrate/20090814153842_create_artist_versions.rb -text
 db/migrate/20090911190142_update_advertisements.rb -text
 db/migrate/20091005214649_add_status_to_artists.rb -text
+db/migrate/20091008202216_add_file_size_index_on_posts.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
