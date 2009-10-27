@@ -508,6 +508,7 @@ public/images/9.gif -text
 public/images/activity.gif -text
 public/images/down.jpg -text
 public/images/nl.png -text
+public/javascripts/application-min.js -text
 public/javascripts/bookmarklet.js -text
 public/javascripts/builder.js -text
 public/javascripts/comment.js -text
@@ -534,6 +535,7 @@ public/javascripts/user.js -text
 public/javascripts/user_record.js -text
 public/maintenance2.html -text
 public/robots.txt -text
+public/stylesheets/default-min.css -text
 public/stylesheets/default.css -text
 script/about -text
 script/benchmarker -text
