@@ -103,6 +103,7 @@ app/models/tag/api_methods.rb -text
 app/models/tag/cache_methods.rb -text
 app/models/tag/parse_methods.rb -text
 app/models/tag/related_tag_methods.rb -text
+app/models/tag/report_methods.rb -text
 app/models/tag/type_methods.rb -text
 app/models/tag_alias.rb -text
 app/models/tag_implication.rb -text
