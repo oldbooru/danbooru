@@ -248,6 +248,7 @@ app/views/post_tag_history/revert.html.erb -text
 app/views/report/common.html.erb -text
 app/views/report_mailer/moderator_report.html.erb -text
 app/views/static/500.html.erb -text
+app/views/static/_dtext_reference.html.erb -text
 app/views/static/index.html.erb -text
 app/views/static/more.html.erb -text
 app/views/static/overloaded.html.erb -text
