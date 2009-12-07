@@ -110,6 +110,7 @@ app/models/tag_methods/related_tag_methods.rb -text
 app/models/tag_methods/report_methods.rb -text
 app/models/tag_methods/type_methods.rb -text
 app/models/tag_subscription.rb -text
+app/models/test_janitor.rb -text
 app/models/user.rb -text
 app/models/user_blacklisted_tag.rb -text
 app/models/user_mailer.rb -text
@@ -629,6 +630,7 @@ test/functional/tag_alias_controller_test.rb -text
 test/functional/tag_controller_test.rb -text
 test/functional/tag_implication_controller_test.rb -text
 test/functional/tag_subscription_controller_test.rb -text
+test/functional/test_janitor_controller_test.rb -text
 test/functional/user_controller_test.rb -text
 test/functional/user_record_controller_test.rb -text
 test/functional/wiki_controller_test.rb -text
