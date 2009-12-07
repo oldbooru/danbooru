@@ -137,10 +137,11 @@ app/views/artist/update.html.erb -text
 app/views/comment/_comment.html.erb -text
 app/views/comment/_comments.html.erb -text
 app/views/comment/_footer.html.erb -text
+app/views/comment/_threshold_notice.html.erb -text
 app/views/comment/edit.html.erb -text
 app/views/comment/index.html.erb -text
+app/views/comment/index_all.js.rjs -text
 app/views/comment/index_hidden.js.rjs -text
-app/views/comment/moderate.html.erb -text
 app/views/comment/search.html.erb -text
 app/views/comment/show.html.erb -text
 app/views/dmail/_compose.html.erb -text
@@ -173,6 +174,7 @@ app/views/help/hidden_tags.html.erb -text
 app/views/help/image_sampling.html.erb -text
 app/views/help/index.html.erb -text
 app/views/help/irc.html.erb -text
+app/views/help/janitor_application.html.erb -text
 app/views/help/mass_tag_edit.html.erb -text
 app/views/help/notes.html.erb -text
 app/views/help/pools.html.erb -text
@@ -461,6 +463,9 @@ db/migrate/20091111184953_add_parent_id_to_tag_histories.rb -text
 db/migrate/20091204202920_add_can_moderate_to_users.rb -text
 db/migrate/20091207180016_remove_can_moderate_from_users.rb -text
 db/migrate/20091207183021_create_test_janitors.rb -text
+db/migrate/20091207194347_add_score_to_comments.rb -text
+db/migrate/20091207194743_add_last_voted_by_to_comments.rb -text
+db/migrate/20091207200342_add_comment_threshold_to_users.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
