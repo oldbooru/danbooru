@@ -26,6 +26,7 @@ app/controllers/tag_alias_controller.rb -text
 app/controllers/tag_controller.rb -text
 app/controllers/tag_implication_controller.rb -text
 app/controllers/tag_subscription_controller.rb -text
+app/controllers/test_janitor_controller.rb -text
 app/controllers/user_controller.rb -text
 app/controllers/user_record_controller.rb -text
 app/controllers/wiki_controller.rb -text
@@ -53,6 +54,7 @@ app/helpers/tag_alias_helper.rb -text
 app/helpers/tag_helper.rb -text
 app/helpers/tag_implication_helper.rb -text
 app/helpers/tag_subscription_helper.rb -text
+app/helpers/test_janitor_helper.rb -text
 app/helpers/user_helper.rb -text
 app/helpers/wiki_helper.rb -text
 app/models/advertisement.rb -text
@@ -109,6 +111,7 @@ app/models/tag_methods/related_tag_methods.rb -text
 app/models/tag_methods/report_methods.rb -text
 app/models/tag_methods/type_methods.rb -text
 app/models/tag_subscription.rb -text
+app/models/test_janitor.rb -text
 app/models/user.rb -text
 app/models/user_blacklisted_tag.rb -text
 app/models/user_mailer.rb -text
@@ -274,6 +277,10 @@ app/views/tag_subscription/_user_listing.html.erb -text
 app/views/tag_subscription/create.js.rjs -text
 app/views/tag_subscription/destroy.js.rjs -text
 app/views/tag_subscription/index.html.erb -text
+app/views/test_janitor/approvals.html.erb -text
+app/views/test_janitor/index.html.erb -text
+app/views/test_janitor/new.html.erb -text
+app/views/test_janitor/test.html.erb -text
 app/views/user/_footer.html.erb -text
 app/views/user/auto_complete_for_member_name.html.erb -text
 app/views/user/block.html.erb -text
@@ -452,6 +459,8 @@ db/migrate/20091005214649_add_status_to_artists.rb -text
 db/migrate/20091008202216_add_file_size_index_on_posts.rb -text
 db/migrate/20091111184953_add_parent_id_to_tag_histories.rb -text
 db/migrate/20091204202920_add_can_moderate_to_users.rb -text
+db/migrate/20091207180016_remove_can_moderate_from_users.rb -text
+db/migrate/20091207183021_create_test_janitors.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
@@ -615,6 +624,7 @@ test/functional/tag_alias_controller_test.rb -text
 test/functional/tag_controller_test.rb -text
 test/functional/tag_implication_controller_test.rb -text
 test/functional/tag_subscription_controller_test.rb -text
+test/functional/test_janitor_controller_test.rb -text
 test/functional/user_controller_test.rb -text
 test/functional/user_record_controller_test.rb -text
 test/functional/wiki_controller_test.rb -text
@@ -641,6 +651,7 @@ test/unit/dtext_test.rb -text
 test/unit/favorite_test.rb -text
 test/unit/flagged_post_detail_test.rb -text
 test/unit/forum_post_test.rb -text
+test/unit/helpers/test_janitor_helper_test.rb -text
 test/unit/job_task_test.rb -text
 test/unit/mod_queue_post_test.rb -text
 test/unit/note_test.rb -text
