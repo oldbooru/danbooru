@@ -83,6 +83,7 @@ app/models/post_methods/comment_methods.rb -text
 app/models/post_methods/count_methods.rb -text
 app/models/post_methods/deletion_methods.rb -text
 app/models/post_methods/file_methods.rb -text
+app/models/post_methods/flag_methods.rb -text
 app/models/post_methods/image_store/amazon_s3.rb -text
 app/models/post_methods/image_store/local_flat.rb -text
 app/models/post_methods/image_store/local_flat_with_amazon_s3_backup.rb -text
@@ -241,6 +242,7 @@ app/views/post/show_partials/_edit.html.erb -text
 app/views/post/show_partials/_history_panel.html.erb -text
 app/views/post/show_partials/_image.html.erb -text
 app/views/post/show_partials/_image_footer.html.erb -text
+app/views/post/show_partials/_moderation_panel.html.erb -text
 app/views/post/show_partials/_options_panel.html.erb -text
 app/views/post/show_partials/_pool.html.erb -text
 app/views/post/show_partials/_related_posts_panel.html.erb -text
