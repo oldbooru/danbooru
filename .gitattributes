@@ -84,6 +84,7 @@ app/models/post_methods/comment_methods.rb -text
 app/models/post_methods/count_methods.rb -text
 app/models/post_methods/deletion_methods.rb -text
 app/models/post_methods/file_methods.rb -text
+app/models/post_methods/flag_methods.rb -text
 app/models/post_methods/image_store/amazon_s3.rb -text
 app/models/post_methods/image_store/local_flat.rb -text
 app/models/post_methods/image_store/local_flat_with_amazon_s3_backup.rb -text
