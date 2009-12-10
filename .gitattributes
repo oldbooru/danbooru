@@ -65,6 +65,7 @@ app/models/artist_url.rb -text
 app/models/artist_version.rb -text
 app/models/ban.rb -text
 app/models/comment.rb -text
+app/models/comment_vote.rb -text
 app/models/dmail.rb -text
 app/models/favorite.rb -text
 app/models/flagged_post_detail.rb -text
@@ -116,6 +117,21 @@ app/models/test_janitor.rb -text
 app/models/user.rb -text
 app/models/user_blacklisted_tag.rb -text
 app/models/user_mailer.rb -text
+app/models/user_methods/api_methods.rb -text
+app/models/user_methods/authentication_methods.rb -text
+app/models/user_methods/blacklist_methods.rb -text
+app/models/user_methods/count_methods.rb -text
+app/models/user_methods/favorite_methods.rb -text
+app/models/user_methods/forum_methods.rb -text
+app/models/user_methods/invite_methods.rb -text
+app/models/user_methods/level_methods.rb -text
+app/models/user_methods/limit_methods.rb -text
+app/models/user_methods/name_methods.rb -text
+app/models/user_methods/password_methods.rb -text
+app/models/user_methods/post_methods.rb -text
+app/models/user_methods/sql_methods.rb -text
+app/models/user_methods/tag_methods.rb -text
+app/models/user_methods/tag_subscription_methods.rb -text
 app/models/user_record.rb -text
 app/models/wiki_page.rb -text
 app/models/wiki_page_version.rb -text
@@ -469,6 +485,7 @@ db/migrate/20091207183021_create_test_janitors.rb -text
 db/migrate/20091207194347_add_score_to_comments.rb -text
 db/migrate/20091207194743_add_last_voted_by_to_comments.rb -text
 db/migrate/20091207200342_add_comment_threshold_to_users.rb -text
+db/migrate/20091210162259_create_comment_votes.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
