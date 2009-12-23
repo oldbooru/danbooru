@@ -61,6 +61,12 @@ app/models/advertisement.rb -text
 app/models/advertisement_hit.rb -text
 app/models/anonymous_user.rb -text
 app/models/artist.rb -text
+app/models/artist_methods/api_methods.rb -text
+app/models/artist_methods/group_methods.rb -text
+app/models/artist_methods/note_methods.rb -text
+app/models/artist_methods/other_name_methods.rb -text
+app/models/artist_methods/url_methods.rb -text
+app/models/artist_methods/version_methods.rb -text
 app/models/artist_url.rb -text
 app/models/artist_version.rb -text
 app/models/ban.rb -text
@@ -487,6 +493,8 @@ db/migrate/20091207194347_add_score_to_comments.rb -text
 db/migrate/20091207194743_add_last_voted_by_to_comments.rb -text
 db/migrate/20091207200342_add_comment_threshold_to_users.rb -text
 db/migrate/20091210162259_create_comment_votes.rb -text
+db/migrate/20091223165824_add_other_names_to_artists.rb -text
+db/migrate/20091223184825_add_group_name_to_artists.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
@@ -612,6 +620,8 @@ script/fix/001_pool_updates.rb -text
 script/fix/002_create_s3_backup_job.rb -text
 script/fix/003_update_tag_counts.rb -text
 script/fix/004_artist_url_dup_check.rb -text
+script/fix/005_convert_artist_aliases.rb -text
+script/fix/006_convert_artist_members.rb -text
 script/generate -text
 script/performance/benchmarker -text
 script/performance/profiler -text
