@@ -595,6 +595,7 @@ script/build_application_js -text
 script/build_default_css -text
 script/console -text
 script/console_sandbox -text
+script/db-init.sh -text
 script/dbconsole -text
 script/destroy -text
 script/donmai/README -text
