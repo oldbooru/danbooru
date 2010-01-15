@@ -3,6 +3,7 @@ config/local_config.rb
 db/schema.rb
 lib/danbooru_image_resizer/Makefile
 lib/danbooru_image_resizer/danbooru_image_resizer.bundle
+lib/danbooru_image_resizer/danbooru_image_resizer.so
 lib/danbooru_image_resizer/mkmf.log
 log/development.log
 public/data/*

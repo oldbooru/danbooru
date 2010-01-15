@@ -594,6 +594,7 @@ script/breakpointer -text
 script/build_application_js -text
 script/console -text
 script/console_sandbox -text
+script/db-init.sh -text
 script/dbconsole -text
 script/destroy -text
 script/donmai/README -text
