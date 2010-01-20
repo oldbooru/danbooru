@@ -140,6 +140,8 @@ app/models/user_methods/tag_subscription_methods.rb -text
 app/models/user_record.rb -text
 app/models/wiki_page.rb -text
 app/models/wiki_page_version.rb -text
+app/presenters/presenter.rb -text
+app/presenters/wiki_page_presenter.rb -text
 app/views/admin/edit_user.html.erb -text
 app/views/admin/index.html.erb -text
 app/views/admin/reset_password.html.erb -text
@@ -324,6 +326,7 @@ app/views/user/random.html.erb -text
 app/views/user/resend_confirmation.html.erb -text
 app/views/user/reset_password.html.erb -text
 app/views/user/show.html.erb -text
+app/views/user/show_advanced.html.erb -text
 app/views/user/show_blocked_users.html.erb -text
 app/views/user/signup.html.erb -text
 app/views/user/upload_limit.html.erb -text
@@ -495,6 +498,7 @@ db/migrate/20091207200342_add_comment_threshold_to_users.rb -text
 db/migrate/20091210162259_create_comment_votes.rb -text
 db/migrate/20091223165824_add_other_names_to_artists.rb -text
 db/migrate/20091223184825_add_group_name_to_artists.rb -text
+db/migrate/20100120174632_remove_alias_id_group_id_from_artists.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
