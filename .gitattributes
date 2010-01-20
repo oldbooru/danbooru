@@ -498,6 +498,7 @@ db/migrate/20091207200342_add_comment_threshold_to_users.rb -text
 db/migrate/20091210162259_create_comment_votes.rb -text
 db/migrate/20091223165824_add_other_names_to_artists.rb -text
 db/migrate/20091223184825_add_group_name_to_artists.rb -text
+db/migrate/20100120174632_remove_alias_id_group_id_from_artists.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
