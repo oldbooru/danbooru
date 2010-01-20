@@ -141,6 +141,8 @@ app/models/user_methods/tag_subscription_methods.rb -text
 app/models/user_record.rb -text
 app/models/wiki_page.rb -text
 app/models/wiki_page_version.rb -text
+app/presenters/presenter.rb -text
+app/presenters/wiki_page_presenter.rb -text
 app/views/admin/edit_user.html.erb -text
 app/views/admin/index.html.erb -text
 app/views/admin/reset_password.html.erb -text
