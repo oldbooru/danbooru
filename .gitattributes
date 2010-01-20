@@ -325,6 +325,7 @@ app/views/user/logout.html.erb -text
 app/views/user/random.html.erb -text
 app/views/user/resend_confirmation.html.erb -text
 app/views/user/reset_password.html.erb -text
+app/views/user/revert_changes.html.erb -text
 app/views/user/show.html.erb -text
 app/views/user/show_advanced.html.erb -text
 app/views/user/show_blocked_users.html.erb -text
@@ -597,6 +598,7 @@ script/about -text
 script/benchmarker -text
 script/breakpointer -text
 script/build_application_js -text
+script/build_default_css -text
 script/console -text
 script/console_sandbox -text
 script/db-init.sh -text
