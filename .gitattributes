@@ -328,7 +328,6 @@ app/views/user/resend_confirmation.html.erb -text
 app/views/user/reset_password.html.erb -text
 app/views/user/revert_changes.html.erb -text
 app/views/user/show.html.erb -text
-app/views/user/show_advanced.html.erb -text
 app/views/user/show_blocked_users.html.erb -text
 app/views/user/signup.html.erb -text
 app/views/user/upload_limit.html.erb -text
