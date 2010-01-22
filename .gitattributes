@@ -499,6 +499,8 @@ db/migrate/20091210162259_create_comment_votes.rb -text
 db/migrate/20091223165824_add_other_names_to_artists.rb -text
 db/migrate/20091223184825_add_group_name_to_artists.rb -text
 db/migrate/20100120174632_remove_alias_id_group_id_from_artists.rb -text
+db/migrate/20100122175802_add_index_to_post_approver.rb -text
+db/migrate/20100122180503_create_misc_indexes.rb -text
 db/postgres.sql -text
 lib/cache.rb -text
 lib/core_extensions.rb -text
