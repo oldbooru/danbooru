@@ -107,6 +107,7 @@ app/models/post_methods/tag_methods.rb -text
 app/models/post_methods/vote_methods.rb -text
 app/models/post_tag_history.rb -text
 app/models/post_vote.rb -text
+app/models/related_tag_calculator.rb -text
 app/models/report_mailer.rb -text
 app/models/server_key.rb -text
 app/models/tag.rb -text
