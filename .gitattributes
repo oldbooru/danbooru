@@ -274,6 +274,7 @@ app/views/post/show_partials/_pool.html.erb -text
 app/views/post/show_partials/_related_posts_panel.html.erb -text
 app/views/post/show_partials/_statistics_panel.html.erb -text
 app/views/post/show_partials/_status_notices.html.erb -text
+app/views/post/undelete.html.erb -text
 app/views/post/upload.html.erb -text
 app/views/post/upload_problem.html.erb -text
 app/views/post_tag_history/index.html.erb -text
