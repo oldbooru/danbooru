@@ -9,6 +9,7 @@ app/controllers/admin_controller.rb -text
 app/controllers/advertisement_controller.rb -text
 app/controllers/application_controller.rb -text
 app/controllers/artist_controller.rb -text
+app/controllers/banned_ip_controller.rb -text
 app/controllers/comment_controller.rb -text
 app/controllers/dmail_controller.rb -text
 app/controllers/favorite_controller.rb -text
@@ -70,6 +71,7 @@ app/models/artist_methods/version_methods.rb -text
 app/models/artist_url.rb -text
 app/models/artist_version.rb -text
 app/models/ban.rb -text
+app/models/banned_ip.rb -text
 app/models/comment.rb -text
 app/models/comment_vote.rb -text
 app/models/dmail.rb -text
@@ -126,6 +128,7 @@ app/models/user_blacklisted_tag.rb -text
 app/models/user_mailer.rb -text
 app/models/user_methods/api_methods.rb -text
 app/models/user_methods/authentication_methods.rb -text
+app/models/user_methods/banned_ip_methods.rb -text
 app/models/user_methods/blacklist_methods.rb -text
 app/models/user_methods/count_methods.rb -text
 app/models/user_methods/favorite_methods.rb -text
@@ -160,6 +163,10 @@ app/views/artist/index.html.erb -text
 app/views/artist/recent_changes.html.erb -text
 app/views/artist/show.html.erb -text
 app/views/artist/update.html.erb -text
+app/views/banned_ip/_footer.html.erb -text
+app/views/banned_ip/index.html.erb -text
+app/views/banned_ip/new.html.erb -text
+app/views/banned_ip/search.html.erb -text
 app/views/comment/_comment.html.erb -text
 app/views/comment/_comments.html.erb -text
 app/views/comment/_footer.html.erb -text
@@ -659,6 +666,7 @@ test/fixtures/users.yml -text
 test/functional/admin_controller_test.rb -text
 test/functional/advertisement_controller_test.rb -text
 test/functional/artist_controller_test.rb -text
+test/functional/banned_ip_controller_test.rb -text
 test/functional/comment_controller_test.rb -text
 test/functional/dmail_controller_test.rb -text
 test/functional/favorite_controller_test.rb -text
@@ -695,6 +703,7 @@ test/unit/application_test.rb -text
 test/unit/artist_test.rb -text
 test/unit/artist_url_test.rb -text
 test/unit/ban_test.rb -text
+test/unit/banned_ip_test.rb -text
 test/unit/comment_test.rb -text
 test/unit/dmail_test.rb -text
 test/unit/dtext_test.rb -text
