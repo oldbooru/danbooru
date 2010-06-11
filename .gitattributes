@@ -166,7 +166,8 @@ app/views/artist/update.html.erb -text
 app/views/banned_ip/_footer.html.erb -text
 app/views/banned_ip/index.html.erb -text
 app/views/banned_ip/new.html.erb -text
-app/views/banned_ip/search.html.erb -text
+app/views/banned_ip/search_ip_addrs.html.erb -text
+app/views/banned_ip/search_users.html.erb -text
 app/views/comment/_comment.html.erb -text
 app/views/comment/_comments.html.erb -text
 app/views/comment/_footer.html.erb -text
